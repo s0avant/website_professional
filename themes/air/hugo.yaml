@@ -1,0 +1,67 @@
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: Aimee M. Van Tatenhove
+params:
+  author:
+    name: Aimee M. Van Tatenhove
+    siteUrl: https://www.avantatenhove.com
+  gmaps_url: #https://tinyurl.com/mr3uesbx
+  footer: "TESTING TEST"
+
+services:
+  googleAnalytics:
+    id: #G-MKFPZMY2YP
+
+menu:
+  main:
+  - name: About 
+    pageRef: /
+    weight: 10
+  - name: CV 
+    pageRef: /cv
+    weight: 20
+  - name: Media 
+    pageRef: /media
+    weight: 30
+  - name: Resources 
+    pageRef: /resources
+    weight: 40
+  - name: Contact 
+    pageRef: /contact
+    weight: 50
+  - name: Extras
+    pageRef: /extras
+    weight: 60
+  - name: Shortcode Gallery
+    pageRef: /extras/shortcode-gallery/
+    parent: Extras
+    weight: 20
+  - name: Page Type Gallery
+    pageRef: /extras/gallery-page-type
+    parent: Extras
+    weight: 30
+  - name: Custom Header Image
+    pageRef: /extras/default-header/
+    parent: Extras
+    weight: 40
+  - name: Responsive Google Maps
+    pageRef: /extras/responsive-google-maps
+    parent: Extras
+    weight: 50
+  - name: Landing Page
+    pageRef: /extras/landing-page
+    parent: Extras
+    weight: 60
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: true

@@ -1,0 +1,4 @@
+baseURL = 'https://www.avantatenhove.com/'
+languageCode = 'en-us'
+title = 'avantatenhove'
+theme = 'air'

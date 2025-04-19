@@ -1,0 +1,25 @@
+############################
+## HUGO MODULES
+## Install or uninstall themes and plugins here.
+## Docs: https://gohugo.io/hugo-modules/
+############################
+
+imports:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
+# Install any Hugo Blox within the `custom/blox/` folder
+# Install any layouts within the `custom/layouts/` folder
+
+mounts:
+  - source: custom/blox
+    target: layouts/partials/blox/
+    includeFiles: '**.html'
+  - source: custom/blox
+    target: assets/dist/community/blox/
+    includeFiles: '**.css'
+  - source: custom/layouts/partials
+    target: layouts/partials
+    includeFiles: '**.html'
+  - source: assets
+    target: assets

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="avantatenhove | Gallery Page Type | Instagram or Masonry Gallery! | Awesome Masonry Gallery !
+Features
+✨ Image gallery rendered from page bundle
+✨ Images are resized with Hugo Resize function
+✨ Masonry grid layout is recalculated once all images are loaded to prevent any display issues
+✨ FancyBox effect on click
+✨ Zoom effect on hover
+Usage
+Add images to your page bundle
+Edit the page type with type: gallery-masonry or type: gallery-insta
+---
+title: Gallery Page Type
+type: gallery-masonry
+params:
+    catchline: &#34;Instagram or Masonry Gallery!&#34;
+---
+Gallery">
+  <title>avantatenhove | Gallery Page Type </title>
+
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
+  
+  <style>
+    :root {
+      --main-color: ;
+    }
+  </style>
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/sass/main.min.css">
+
+</head>
+
+
+
+<body>
+
+  <header class="mb-3">
+  
+
+  
+  
+  
+   
+   
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand main-color" href="http://localhost:1313/">avantatenhove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+               
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/" class="nav-link " alt="/">About</a>
+
+              
+              
+            </li>
+
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+              
+              
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/cv/" class="nav-link " alt="/cv/">CV</a>
+
+              
+              
+            </li>
+
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+              
+              
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/media/" class="nav-link " alt="/media/">Media</a>
+
+              
+              
+            </li>
+
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+              
+              
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/resources/" class="nav-link " alt="/resources/">Resources</a>
+
+              
+              
+            </li>
+
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+              
+              
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/contact/" class="nav-link " alt="/contact/">Contact</a>
+
+              
+              
+            </li>
+
+          
+            
+            
+
+            
+            
+
+            
+            
+
+
+            
+
+            
+            
+              
+              
+            
+
+            
+            
+
+            <li class="nav-item">
+              <a href="/extras/" class="nav-link active" alt="/extras/">Extras</a>
+
+              
+              
+                <ul class="submenu">
+                  
+                    <li class="submenu-item">
+                      <a href="/extras/shortcode-gallery/" class="nav-link ">Shortcode Gallery</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a href="/extras/gallery-page-type/" class="nav-link active">Page Type Gallery</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a href="/extras/default-header/" class="nav-link ">Custom Header Image</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a href="/extras/responsive-google-maps/" class="nav-link ">Responsive Google Maps</a>
+                    </li>
+                  
+                    <li class="submenu-item">
+                      <a href="/extras/landing-page/" class="nav-link ">Landing Page</a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+    
+    <div class="headerImage" small-Image="/img/header-480.jpg" large-Image="/img/header-960.jpg">
+  
+
+  <img src="/img/loader.gif" alt="Loading..." class="loader" />
+
+  <div class="color-overlay d-flex flex-column justify-content-center align-items-center align-content-center">
+    <h1>Gallery Page Type</h1>
+    
+      <h2>Instagram or Masonry Gallery!</h2>
+    
+  </div>
+
+</div>
+</header>
+
+
+  
+
+<main class="container">
+
+  <h1 id="awesome-masonry-gallery-">Awesome Masonry Gallery !</h1>
+<h2 id="features">Features</h2>
+<p>✨ Image gallery rendered from page bundle<br>
+✨ Images are resized with <a href="https://gohugo.io/content-management/image-processing/#resize">Hugo Resize function</a><br>
+✨ Masonry grid layout is <a href="https://github.com/francoiducat/hugo-air/blob/main/layouts/partials/gallery-masonry.html">recalculated once all images are loaded to prevent any display issues</a><br>
+✨ FancyBox effect on click<br>
+✨ <a href="https://github.com/francoiducat/hugo-air/blob/main/assets/sass/main.scss">Zoom effect on hover</a></p>
+<h2 id="usage">Usage</h2>
+<p>Add images to your page bundle<br>
+Edit the page type with <code>type: gallery-masonry</code> or <code>type: gallery-insta</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#ae81ff">Gallery Page Type</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">type</span>: <span style="color:#ae81ff">gallery-masonry</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">catchline</span>: <span style="color:#e6db74">&#34;Instagram or Masonry Gallery!&#34;</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><h2 id="gallery">Gallery</h2>
+
+
+  <div class="row" data-masonry='{"percentPosition": true}'>
+  
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/aaron-burden-DuGDqZQ-Lx4-unsplash_hu_b0437d3d084e2969.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/aaron-burden-DuGDqZQ-Lx4-unsplash_hu_8460f1ccc09d1df2.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/aivars-vilks-kChe4aCWRok-unsplash_hu_b950b65b4ab9e5fe.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/aivars-vilks-kChe4aCWRok-unsplash_hu_1e27859b81a0dcbf.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/arnaud-girault-BVDpC8gBHtY-unsplash_hu_8b17ae48fc9936d6.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/arnaud-girault-BVDpC8gBHtY-unsplash_hu_bea5902670c4162e.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/buddy-photo-B2edG_SyP7E-unsplash_hu_f062834aea05b53d.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/buddy-photo-B2edG_SyP7E-unsplash_hu_6d44740a5ea7e2b1.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/chandra-oh-dze649xYm64-unsplash_hu_e35e9ce22a2e8dd5.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/chandra-oh-dze649xYm64-unsplash_hu_9d1ecb9b6248d5a0.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/francesco-ungaro-qgv-gOxcK4k-unsplash_hu_c445e98651a20a4a.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/francesco-ungaro-qgv-gOxcK4k-unsplash_hu_e51ed0dd8e8f2bb.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/frode-myklebust-rHs9qFMrcDk-unsplash_hu_909277eaf4b169c2.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/frode-myklebust-rHs9qFMrcDk-unsplash_hu_62c14754b84c431b.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/gustavo-zambelli--JMK4lyhnGM-unsplash_hu_72023ac7b42bf804.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/gustavo-zambelli--JMK4lyhnGM-unsplash_hu_e675d15e9626dee3.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/ingmar-h-qJgQ0NIW5Ys-unsplash_hu_df7e5d60f271d80b.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/ingmar-h-qJgQ0NIW5Ys-unsplash_hu_6e2964539114cf73.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/jerry-wang-mKVHCXWrNWA-unsplash_hu_585db31a351c4102.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/jerry-wang-mKVHCXWrNWA-unsplash_hu_ef92a4a35e6fba54.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/karsten-winegeart-qd2FKfmZtqY-unsplash_hu_2b9b3507d85e84c6.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/karsten-winegeart-qd2FKfmZtqY-unsplash_hu_f4073e87db9df9ee.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/martin-bennie-yGhOkM46Je8-unsplash_hu_745ceb8b9e376edc.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/martin-bennie-yGhOkM46Je8-unsplash_hu_dd7046e2a29cc2b9.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/natalie-kinnear-roeWtas_V5c-unsplash_hu_fc9ec78afa7aea93.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/natalie-kinnear-roeWtas_V5c-unsplash_hu_aedb254f8925764d.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/nir-himi-KSlJhcpDaQk-unsplash_hu_52cad63e5c01242f.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/nir-himi-KSlJhcpDaQk-unsplash_hu_ff38d1c544eb2163.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/peter-thomas-en6_LYwHNZ4-unsplash_hu_d55c1a8bc39bc62d.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/peter-thomas-en6_LYwHNZ4-unsplash_hu_3bf8a6423eb7481a.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+
+  <div class="col-12 col-md-4 col-lg-3 mb-4">
+    <div class="card-columns">
+      <div class="card-container">
+        <div class="card no-border image-zoom-wrapper">
+          <a href="/extras/gallery-page-type/zgc1993-ejgHpBl-T-0-unsplash_hu_e82ec371c78aa978.webp"
+            data-fancybox="gallery">
+            <img class="card-img zoom-image" src="/extras/gallery-page-type/zgc1993-ejgHpBl-T-0-unsplash_hu_42b0037c621ce4b3.webp" alt="Gallery">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    var grid = document.querySelector('.row');
+
+    
+    var msnry = new Masonry(grid, {
+      itemSelector: '.col-12',
+      percentPosition: true,
+    });
+
+    
+    imagesLoaded(grid, function() {
+      msnry.layout(); 
+    });
+  });
+</script>
+
+</main>
+
+
+
+  
+
+  <footer>
+  
+  <div class="pt-3 bg-main-color text-white">
+    <div class="row">
+      <div class="text-center">
+        <ul class="list-unstyled">
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="container mt-2 pb-1 bg-white">
+    <div class="row">
+      <div class="text-center">
+        <p class="mt-1 mb-0">TESTING TEST</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-2 pb-1 bg-white ">
+    <div class="row">
+      <div class="text-center">
+        <p class="mt-1 mb-0" style="font-size:12px">PLACEHOLDER</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" async></script>
+
+
+<script src="/js/header-image.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js" async></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: About
+    url: /
+    weight: 10
+  - name: C.V.
+    url: cv/
+    weight: 20
+  - name: Media
+    url: media/
+    weight: 30
+  - name: Resources
+    url: resources/
+    weight: 40
+  - name: Contact
+    url: contact/
+    weight: 50
