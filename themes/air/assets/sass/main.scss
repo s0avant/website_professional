@@ -9,7 +9,9 @@ Main color for the website
 It can be overridden in the config file by setting "Params.mainColor" to any color value
 */
 :root {
-  --main-color: #000000; /* default text color */
+  --main-color-bg: #f5f5f4; /* default background color */
+  --main-color-text: #000; /* default text color */
+  overflow-x: hidden; /* NOT A GREAT WAY TO DO THIS BUT WORKS FOR NOW! */
 }
 
 /*
@@ -19,20 +21,20 @@ It can be overridden in the config file by setting "Params.mainColor" to any col
 */
 
 section div h1 {
-  color:var(--main-color);
+  color:var(--main-color-text);
 }
 
 section.odd p,
 section.odd h1 {
   text-align: right;
-  color: #fff;
+  color: #190;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
   position: relative;
-  width: 90%; /* Responsive width */
+  width: 95%; /* Responsive width */
 }
 
 /* Base Triangle Arrow */
@@ -44,7 +46,7 @@ section.odd::after {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 60px solid var(--main-color); /* Triangle shape */
+  border-top: 60px solid var(--main-color-bg); /* Triangle shape */
 }
 
 /* Left Triangle - Aligns Exactly with Left Edge of .container */
@@ -62,7 +64,7 @@ section.odd-right::after {
 /* Ensure Sections Have Proper Positioning */
 section.odd {
   position: relative;
-  background-color: var(--main-color);
+  background-color: var(--main-color-bg);
 }
 
 /* Responsive Adjustments */
@@ -94,23 +96,28 @@ section.odd {
   }
 }
 
+body {
+  background-color: var(--main-color-bg);
+  color: var(--main-color-text);
+  font-family: Open Sans;
+}
 
 h1,
 h2,
-h3 {
-  color: var(--main-color);
-  font-family: verdana;
+h3,
+h4 {
+  color: var(--main-color-text);
+  font-weight: bold;
 }
 
 a {
-  color: var(--main-color);
-  text-decoration: none;
-  font-family: verdana;
+  color: var(--main-color-text);
+  text-decoration: underline;
 }
 
 p {
+  color: var(--main-color-text);
   text-align: justify;
-  font-family: verdana;
 }
 
 /*
@@ -124,15 +131,15 @@ p {
 }
 
 .bg-main-color {
-  background-color: var(--main-color);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .main-color {
-  color: var(--main-color);
+  color: var(--main-color-bg);
 }
 
 .btn.main-color {
-  background-color: var(--main-color);
+  background-color: var(--main-color-bg);
   color: #fff;
 }
 
@@ -157,20 +164,19 @@ p {
 
 .navbar {
   --bs-navbar-padding-y: 0rem;
-  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Roboto;
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1050;
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 1000;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
   color: #fff !important;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  transition: color 0.3s ease, border-top 0.3s ease;
 }
 
 /* Active and Hover State */
@@ -178,7 +184,6 @@ p {
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active {
   color: rgba(255, 255, 255, 1) !important;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Ensure the navbar toggler is visible on mobile */
@@ -191,16 +196,32 @@ p {
     position: absolute;
     top: 100%;
     right: 0;
-    width: auto;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    border-radius: 5px;
-    backdrop-filter: blur(3px);
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    min-width: 150px; 
+    white-space: nowrap; 
   }
 
-  .navbar-nav {
-    align-items: flex-end;
-    text-align: right;
+  .nav-link {
+    display: block; /* Ensures the link spans the full width of the item */
+    width: 100%; /* Let the width adjust to the content */
+    padding: 5px 10px;
+    border: none; /* Remove any border on the submenu link */
+    transition: background-color 0.1s ease;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top: none;
+    border-bottom: none;
   }
 }
 
@@ -208,7 +229,6 @@ p {
 .navbar-brand:hover,
 .nav-link:hover {
   color: #fff;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-toggler,
@@ -223,17 +243,14 @@ p {
 @media (min-width: 992px) {
   .navbar ul li a {
     border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    transition: border-top 0.3s ease;
+    border-bottom: 3px solid transparent;
   }
 
   /* Apply the white border to both hovered and active menu items */
   .navbar ul li a:hover,
   .navbar ul li a.active {
-    border-top: 5px solid #fff;
-    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 3px solid #fff;
   }
 }
 
@@ -250,20 +267,18 @@ p {
 =======================================================
 */
 
-
 /* Ensure submenu is hidden by default */
 .submenu {
   display: none;
   position: absolute;
+  top: 100%;
+  right: 0;
   list-style: none;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.2); 
-  backdrop-filter: blur(3px); 
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.8); 
   z-index: 1000;
-  border-radius: 5px;
   min-width: 150px; 
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 /* Show the submenu when hovering over the parent menu item */
@@ -284,8 +299,7 @@ p {
   display: block; /* Ensure the submenu item takes full width */
   padding: 5px 12px; /* Smaller padding */
   font-size: 14px; /* Smaller font size */
-  transition: background-color 0.3s ease;
-  border-radius: 5px; /* Apply border-radius to submenu item */
+  transition: background-color 0.1s ease;
   width: 100%; /* Ensure it takes up full width of the submenu */
 }
 
@@ -297,15 +311,12 @@ p {
   width: 100%; /* Let the width adjust to the content */
   padding: 5px 10px;
   border: none; /* Remove any border on the submenu link */
-  border-radius: 5px; /* Ensure rounded corners for the link */
 }
 
 /* Add hover effect for submenu items and ensure full-width background color change */
 .submenu-item:hover {
-  background-color: rgba(255, 255, 255, 0.4); 
-  border-radius: 5px; /* Keep border-radius on hover */
+  background-color: rgba(255, 255, 255, 0.3); 
 }
-
 
 /* Ensure that submenu item links have no borders on hover */
 .nav-item:hover .submenu-item a {
@@ -322,34 +333,28 @@ p {
 .headerImage {
   background-size: cover;
   min-height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   position: relative;
   color: #fff;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
-  z-index: 1;
+  z-index: 999;
 }
 
-.headerImage .loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 3%;
-  transform: translate(-50%, -50%);
-}
-
-.color-overlay {
+.color-overlay { /* Apply color or blur filter to header images */
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px); 
 }
 
 .color-overlay h1 {
   background-color: transparent;
   text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
   color: #fff;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75);
 }
 
 .color-overlay h2 {
@@ -357,9 +362,8 @@ p {
   text-align: center;
   font-style: italic;
   color: #fff;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75);
 }
-
 
 /*
 =======================================================
@@ -413,22 +417,6 @@ p {
 
 /*
 =======================================================
-=                  Smoobu Calendar                    =
-=======================================================
-*/
-.calendarWidget a {
-  color: transparent;
-}
-
-.calendarWidget .multiCalendarWidget .singleCalendarWidget table td.current-day,
-.calendarWidget .multiCalendarWidget .singleCalendarWidget h2 table td.current-day {
-  border: 0px solid #951212 !important;
-  font-weight: bold;
-  color: #5e5e5e;
-}
-
-/*
-=======================================================
 =                    Google Maps                      =
 =======================================================
 */
@@ -438,7 +426,6 @@ p {
   height: 0;
   position: relative;
 }
-
 
 @media (min-width: 640px) {
   .gmaps {
@@ -459,6 +446,10 @@ p {
 =                       Footer                        =
 =======================================================
 */
+
+footer {
+  background-color: #fff;
+}
 
 footer .nav-link:hover {
   color: #fff;

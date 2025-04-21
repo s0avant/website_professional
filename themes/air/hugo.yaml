@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL:
 languageCode: en-us
 title: Aimee M. Van Tatenhove
 params:
@@ -6,7 +6,8 @@ params:
     name: Aimee M. Van Tatenhove
     siteUrl: https://www.avantatenhove.com
   gmaps_url: #https://tinyurl.com/mr3uesbx
-  footer: "TESTING TEST"
+  footer: 
+    copyright: '© {year} Aimee M. Van Tatenhove, PhD'
 
 services:
   googleAnalytics:
@@ -63,5 +64,5 @@ markup:
 
 privacy:
   googleAnalytics:
-    disable: false
+    disable: true
     respectDoNotTrack: true
