@@ -4,7 +4,7 @@ catchline:
 type: landing-page
 ---
 ___
-# ‼️ Check that URLs aren't defunct + fix weird list spacing‼️
+# ‼️ Fix weird list spacing‼️
 
 #### Getting started: research & publishing
 * Peer review
@@ -38,8 +38,7 @@ ___
 * [Creating a personal academic website](https://peerrecognized.com/website/)
 * [How to write a student travel award application](https://wildlifesnpits.wordpress.com/2016/06/13/how-to-write-a-student-travel-award-application/)
 * [Proteus - Darryl MacKenzie: Statistics how-to and occupancy modeling (YouTube)](https://www.youtube.com/user/ProteusWRC/)
-* [The importance of stupidity in scientific research (PDF)](https://cob.silverchair-cdn.com/cob/content_public/journal/jcs/121/11/10.1242_jcs.033340/3/1771.pdf?Expires=1658424538&Signature=fViAElSGLppDIFmN91w7lnBvWT4OCyzZ9QcOT6Uipg8-k-UXBZrH3u1USbTDIXyY6ZjrOdY06DYwOt5Uo8Zv7LZ1CXld-XuyfuxMbgIPgHDEY2v3iiv8MlWVGHG2~r6aYCKEIwsipolhXTrVUwyT4wpQqEAxT7w~UbOp7TJ9jMhKy6B3ZDF2zaAlqa0-dE2a0IeqJgdYfp3dtPAyy9m8RLKnVFeDEuu3fPdVh1bNdsl~Q5WJlsNfOripZUphsyAcnZws50E3O6dBy1LfoSyyDrakqPZQjorVXQoaOi5lOeyDhGzKwRvMsxVy17cfch0B4iD2H55UMn5Sfht5LqbvRA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
-* [Tips for a successful online interview](http://williamcurrie.net/2018/12/21/faculty-candidates-tips-for-a-successful-skype-interview/)
+* [The importance of stupidity in scientific research (PDF)](https://web.stanford.edu/~fukamit/schwartz-2008.pdf)
 * [Tips for sharing your research online](https://blogs.biomedcentral.com/bmcblog/2017/10/18/10-tips-for-promoting-your-research-online/)
 * [Tips for working with the media](https://news.umich.edu/for-faculty/tips-for-working-with-the-media/)
 * ‼ ADD INFO FROM MENTORSHIP COURSE ‼

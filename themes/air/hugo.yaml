@@ -7,7 +7,7 @@ params:
     siteUrl: https://www.avantatenhove.com
   gmaps_url: #https://tinyurl.com/mr3uesbx
   footer: 
-    copyright: '© {year} Aimee M. Van Tatenhove, PhD'
+    copyright: '© 2018–{year} Aimee M. Van Tatenhove, PhD'
 
 services:
   googleAnalytics:
