@@ -50,7 +50,7 @@ ___
 #### YouTube
 I occasionally put together short YouTube videos of my time in the field conducting research and recreating. Check them out here or on my [YouTube channel](https://www.youtube.com/channel/UCcfPF8k77F6CO50X3z8fPnQ). Fieldwork videos include a full season of point count adventures in New Hampshire and pelican and songbird work in Utah.
 
-#### EMBED VIDEOS
+{{< youtube BgEWYgsdhlk >}}
 
 ___
 #### GIS Showcase

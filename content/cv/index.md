@@ -4,4 +4,3 @@ catchline:
 type: landing-page
 ---
 
-CV page

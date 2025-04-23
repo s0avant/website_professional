@@ -10,8 +10,9 @@ I am a quantitative ecologist with an interest in data integration and improving
 Unless noted otherwise, all media on this site, including header photos, are my personal work.
 
 ___
-#### EMBED IMAGE
 ##### Research Interests
+
+{{< figure src=/pelican-transmitter.jpg width=500 >}}
 * yup
 * yup
 * yup

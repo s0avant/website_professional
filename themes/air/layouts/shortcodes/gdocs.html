@@ -1,0 +1,6 @@
+<img src="{{ .Get 0 | relURL }}" alt="{{ .Get 1 }}" class="img-fluid">
+
+{{- $name := (.Get 0) -}}
+{{- with $name -}}
+{{- with ($.Page.Param .) }}{{ . }}{{ else }}{{ errorf "Param %q not found: %s" $name $.Position }}{{ end -}}
+{{- else }}{{ errorf "Missing param key: %s" $.Position }}{{ end -}}
