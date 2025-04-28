@@ -1,1 +1,5 @@
-<img src="{{ .Get 0 | relURL }}" alt="{{ .Get 1 }}" class="img-fluid">
+{{- with .Page.Resources.Get (.Get "path") }}
+  {{- with .Process (printf "resize %dx wepb" ($.Get "width")) -}}
+    <img src="{{ absURL | relURL }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ .Alt }}">
+  {{- end }}
+{{- end -}}

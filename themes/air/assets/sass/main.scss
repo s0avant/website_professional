@@ -126,16 +126,8 @@ p {
 =======================================================
 */
 
-.text-center p {
-  text-align: center;
-}
-
 .bg-main-color {
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-.main-color {
-  color: var(--main-color-bg);
 }
 
 .btn.main-color {
@@ -143,17 +135,30 @@ p {
   color: #fff;
 }
 
+.card-img {
+  border: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+}
+
 .catchline {
   font-style: italic;
+}
+
+.image-left {
+  float: left;
+  margin-left: 15px;
+}
+
+.main-color {
+  color: var(--main-color-bg);
 }
 
 .no-border {
   border: none;
 }
 
-.card-img {
-  border: none;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.75);
+.text-center p {
+  text-align: center;
 }
 
 /*
