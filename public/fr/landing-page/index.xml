@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page d&#39;accueil on avantatenhove</title>
+    <link>http://localhost:1313/fr/landing-page/</link>
+    <description>Recent content in Page d&#39;accueil on avantatenhove</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/fr/landing-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page 1</title>
+      <link>http://localhost:1313/fr/landing-page/page-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/landing-page/page-1/</guid>
+      <description>&lt;p&gt;Contenu de la Page 1&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Page 2</title>
+      <link>http://localhost:1313/fr/landing-page/page-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/landing-page/page-2/</guid>
+      <description>&lt;p&gt;Contenu de la page 2&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Page 3</title>
+      <link>http://localhost:1313/fr/landing-page/page-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/landing-page/page-3/</guid>
+      <description>&lt;p&gt;Contenu de la Page 3&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Page 4</title>
+      <link>http://localhost:1313/fr/landing-page/page-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/landing-page/page-4/</guid>
+      <description>&lt;p&gt;Contenu de la page 4&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>http://localhost:1313/fr/landing-page/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/landing-page/photos/</guid>
+      <description>&lt;p&gt;Page Photos&lt;/p&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;p&gt;No images found in this gallery.&lt;/p&gt;&#xA;  &#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

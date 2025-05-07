@@ -8,10 +8,10 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 |-----------------------------------------------------------------------------|
 | [francoiducat.github.io/hugo-air](https://francoiducat.github.io/hugo-air) 	|
 
-
 | LOCAL DEMO                                     	|
 |-------------------------------------------------|
 |  Clone this repo and run  `hugo serve` command  |
+
 
 ## Features
 |  Awesome Features  	                                                            |
@@ -24,6 +24,7 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 | ✨ **Single-page** landing homepage   	                                         |
 | ✨ Embeded Google Maps                      	                                   |
 | ✨ Smooobu Booking **shortcode**      	                                         |
+| ✨ **Multilingual** Support shortcode      	                                   |
 
 ## Installation
 

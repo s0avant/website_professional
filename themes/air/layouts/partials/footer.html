@@ -18,13 +18,20 @@
   <!-- Second Footer Section -->
 
   <div class="container mt-2 pb-1 bg-white">
-    <span class="copyright">
-      <div class="row">
-        <div class="text-center">
-		      <p class="mt-1 mb-0" style="font-size:12px">{{ replace .Site.Params.Footer.Copyright "{year}" now.Year }}</p>
-        </div>
+    <div class="row">
+      <div class="text-center">
+        <p class="mt-1 mb-0">{{ .Site.Params.footer }}</p>
       </div>
-    </span>
+    </div>
+  </div>
+  <div class="container mt-2 pb-1 bg-white ">
+    <div class="row">
+      <div class="text-center">
+        <p class="mt-1 mb-0" style="font-size:12px">Built with ❤️ with <a href="https://gohugo.io/"
+            target="_blank">Hugo</a> by <a href="{{ .Site.Params.author.siteUrl }}" target="_blank">{{
+            .Site.Params.author.name}}</a>.</p>
+      </div>
+    </div>
   </div>
 </footer>
 

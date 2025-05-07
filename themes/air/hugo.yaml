@@ -1,62 +1,123 @@
-baseURL:
-languageCode: en-us
-title: Aimee M. Van Tatenhove
+# Site Configuration
+baseURL: http://localhost:1313/hugo-air
+languageCode: en-GB
+title: Hugo Air Theme
+
+# Site Parameters
 params:
   author:
-    name: Aimee M. Van Tatenhove
-    siteUrl: https://www.avantatenhove.com
-  gmaps_url: 
-  footer: 
-    copyright: '© 2018–{year} Aimee M. Van Tatenhove, PhD'
+    name: François
+    siteUrl: https://francoiducat.github.io/hugo-air
+  gmaps_url: https://tinyurl.com/mr3uesbx
+  mainColor: "#035c8c"
+  footer: "Hugo Air Theme is a great responsive theme!"
 
+# Multi-language support
+defaultContentLanguage: fr
+languages:
+  en:
+    languageCode: en-GB
+    contentDir: content/en
+    languageName: English
+    weight: 1
+    menu:
+      main:
+      - name: Home 
+        pageRef: /
+        weight: 20
+      - name: Features
+        pageRef: /features
+        weight: 30
+      - name: Shortcode Gallery
+        pageRef: /features/shortcode-gallery/
+        parent: Features
+        weight: 20
+      - name: Page Type Gallery
+        pageRef: /features/gallery-page-type
+        parent: Features
+        weight: 30
+      - name: Custom Header Image
+        pageRef: /features/default-header/
+        parent: Features
+        weight: 40
+      - name: Responsive Google Maps
+        pageRef: /features/responsive-google-maps
+        parent: Features
+        weight: 50
+      - name: Landing Page
+        pageRef: /landing-page
+        weight: 40
+      footer:
+      - name: Home 
+        pageRef: /
+        weight: 20
+        params:
+          target: 
+      - name: Features 
+        pageRef: /features
+        weight: 30
+        params:
+          target: 
+      - name: Landing Page
+        pageRef: /landing-page
+        weight: 40
+        params:
+          target: 
+  fr:
+    languageCode: fr-FR
+    contentDir: content/fr
+    languageName: Français
+    weight: 2
+    menu:
+      main:
+      - name: Accueil 
+        pageRef: /
+        weight: 20
+      - name: Fonctionnalités
+        pageRef: /features
+        weight: 30
+      - name: Gallerie avec Shortcode
+        pageRef: /features/shortcode-gallery/
+        parent: Fonctionnalités
+        weight: 20
+      - name: Type de page Gallerie
+        pageRef: /features/gallery-page-type
+        parent: Fonctionnalités
+        weight: 30
+      - name: Image personnalisée
+        pageRef: /features/default-header/
+        parent: Fonctionnalités
+        weight: 40
+      - name: Carte Google Maps Responsive 
+        pageRef: /features/responsive-google-maps
+        parent: Fonctionnalités
+        weight: 50
+      - name: Page d'accueil multi-pages
+        pageRef: /landing-page
+        weight: 40
+      footer:
+      - name: Accueil 
+        pageRef: /
+        weight: 20
+        params:
+          target: 
+      - name: Fonctionnalités 
+        pageRef: /features
+        weight: 30
+        params:
+          target: 
+      - name: Page d'accueil multi-pages
+        pageRef: /landing-page
+        weight: 40
+        params:
+          target: 
+
+# Google Analytics
 services:
   googleAnalytics:
-    id: #G-MKFPZMY2YP
+    id: G-MKFPZMY2YP
 
-menu:
-  main:
-  - name: About 
-    pageRef: /
-    weight: 10
-  - name: CV 
-    pageRef: /cv
-    weight: 20
-  - name: Mentoring
-    pageRef: /mentoring
-    weight: 30
-  - name: Media 
-    pageRef: /media
-    weight: 40
-  - name: Resources 
-    pageRef: /resources
-    weight: 50
-  - name: Contact 
-    pageRef: /contact
-    weight: 60
-  - name: Extras
-    pageRef: /extras
-    weight: 70
-  - name: Shortcode Gallery
-    pageRef: /extras/shortcode-gallery/
-    parent: Extras
-    weight: 20
-  - name: Page Type Gallery
-    pageRef: /extras/gallery-page-type
-    parent: Extras
-    weight: 30
-  - name: Custom Header Image
-    pageRef: /extras/default-header/
-    parent: Extras
-    weight: 40
-  - name: Responsive Google Maps
-    pageRef: /extras/responsive-google-maps
-    parent: Extras
-    weight: 50
-  - name: Landing Page
-    pageRef: /extras/landing-page
-    parent: Extras
-    weight: 60
-
+# Theme Configuration
 markup:
   goldmark:
     parser:
@@ -65,10 +126,8 @@ markup:
     renderer:
       unsafe: true
 
+# Privacy Settings
 privacy:
   googleAnalytics:
-    disable: true
-    respectDoNotTrack: true
-  youTube:
     disable: false
-    privacyEnhanced: true
+    respectDoNotTrack: false

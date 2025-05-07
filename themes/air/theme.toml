@@ -2,7 +2,7 @@ name = 'Air'
 license = 'MIT'
 licenselink = 'https://github.com/owner/repo/LICENSE'
 description = 'Hugo Air Theme'
-version = 'v0.0.7'
+version = 'v0.0.9'
 screenshot = '/images/screenshot.jpg/'
 
 # The home page of the theme, where the source can be found
@@ -18,5 +18,5 @@ min_version = '0.100.0'
 
 # If the theme has a single author
 [author]
-  name = 'avantatenhove'
-  homepage = 'https://www.avantatenhove.com/'
+  name = 'francoiducat'
+  homepage = 'https://github.com/francoiducat/hugo-air'
