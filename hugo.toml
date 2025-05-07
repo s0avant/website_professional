@@ -1,4 +1,93 @@
-baseURL = 'https://www.avantatenhove.com/'
-languageCode = 'en-us'
-title = 'avantatenhove'
-theme = 'air'
+baseURL = "https://www.avantatenhove.com/"
+languageCode = "en-us"
+title = "avantatenhove"
+theme = "air"
+
+[params]
+  author = { name = "Aimee M. Van Tatenhove", siteUrl = "https://www.avantatenhove.com" }
+  gmaps_url = ""
+  [params.footer]
+    copyright = "© 2018–{year} Aimee M. Van Tatenhove, PhD"
+
+[services.googleAnalytics]
+  id = "" #G-MKFPZMY2YP
+
+[[menu.main]]
+  name = "About"
+  pageRef = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "CV"
+  pageRef = "/cv"
+  weight = 20
+
+[[menu.main]]
+  name = "Mentoring"
+  pageRef = "/mentoring"
+  weight = 30
+
+[[menu.main]]
+  name = "Media"
+  pageRef = "/media"
+  weight = 40
+
+[[menu.main]]
+  name = "Resources"
+  pageRef = "/resources"
+  weight = 50
+
+[[menu.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 60
+
+[[menu.main]]
+  name = "Extras"
+  pageRef = "/extras"
+  weight = 70
+
+[[menu.main]]
+  name = "Shortcode Gallery"
+  pageRef = "/extras/shortcode-gallery/"
+  parent = "Extras"
+  weight = 20
+
+[[menu.main]]
+  name = "Page Type Gallery"
+  pageRef = "/extras/gallery-page-type"
+  parent = "Extras"
+  weight = 30
+
+[[menu.main]]
+  name = "Custom Header Image"
+  pageRef = "/extras/default-header/"
+  parent = "Extras"
+  weight = 40
+
+[[menu.main]]
+  name = "Responsive Google Maps"
+  pageRef = "/extras/responsive-google-maps"
+  parent = "Extras"
+  weight = 50
+
+[[menu.main]]
+  name = "Landing Page"
+  pageRef = "/extras/landing-page"
+  parent = "Extras"
+  weight = 60
+
+[markup.goldmark.parser.attribute]
+  block = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    respectDoNotTrack = true
+
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true

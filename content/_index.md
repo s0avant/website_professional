@@ -12,7 +12,6 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 ___
 ##### Research Interests
 
-
 I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist.
 
 * yup

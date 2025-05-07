@@ -1,7 +1,7 @@
 ---
 title: Contact
 catchline:
-type: profile
+type: 
 ---
 
 #### Email
