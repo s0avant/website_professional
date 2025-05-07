@@ -4,6 +4,8 @@ catchline:
 type:
 ---
 
+{{< profile >}}
+
 
 {{< figure src=pelican-transmitter.jpg width=500 class=image-left >}}
 ##### Aimee M. Van Tatenhove, PhD
