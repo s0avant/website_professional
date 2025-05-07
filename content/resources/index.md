@@ -1,12 +1,14 @@
 ---
 title: Resources
 catchline:
-type: landing-page
 ---
 ___
 # ‼️ Fix weird list spacing‼️
 
 #### Getting started: research & publishing
+* Graduate school
+  + [Advice on Applying to Graduate School in Ecology and Evolutionary Biology: How to Prepare and a Step-By-Step Guide](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)
+
 * Peer review
   + [Peer review should be an honest, but collegial, conversation](https://www.nature.com/articles/d41586-020-01622-z)
   + [The golden rule of reviewing (PDF)](https://www.journals.uchicago.edu/doi/pdf/10.1086/598847)

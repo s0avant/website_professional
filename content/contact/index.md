@@ -1,8 +1,9 @@
 ---
 title: Contact
 catchline:
-type: landing-page
+type: profile
 ---
+
 #### Email
 amv48[at]cornell.edu
 

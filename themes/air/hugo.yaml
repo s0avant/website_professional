@@ -5,7 +5,7 @@ params:
   author:
     name: Aimee M. Van Tatenhove
     siteUrl: https://www.avantatenhove.com
-  gmaps_url: #https://tinyurl.com/mr3uesbx
+  gmaps_url: 
   footer: 
     copyright: '© 2018–{year} Aimee M. Van Tatenhove, PhD'
 
@@ -21,18 +21,21 @@ menu:
   - name: CV 
     pageRef: /cv
     weight: 20
+  - name: Mentoring
+    pageRef: /mentoring
+    weight: 30
   - name: Media 
     pageRef: /media
-    weight: 30
+    weight: 40
   - name: Resources 
     pageRef: /resources
-    weight: 40
+    weight: 50
   - name: Contact 
     pageRef: /contact
-    weight: 50
+    weight: 60
   - name: Extras
     pageRef: /extras
-    weight: 60
+    weight: 70
   - name: Shortcode Gallery
     pageRef: /extras/shortcode-gallery/
     parent: Extras

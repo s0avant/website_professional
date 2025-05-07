@@ -51,6 +51,8 @@
   </url><url>
     <loc>http://localhost:1313/media/</loc>
   </url><url>
+    <loc>http://localhost:1313/mentoring/</loc>
+  </url><url>
     <loc>http://localhost:1313/resources/</loc>
   </url>
 </urlset>

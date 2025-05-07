@@ -1,7 +1,6 @@
 ---
 title: Media
-catchline: 
-type: landing-page
+catchline:
 ---
 
 This is a place for interviews, media publications, and other outreach I've participated in, as well as a home for my various media creations. Posts & opinions my own.

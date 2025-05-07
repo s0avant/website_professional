@@ -120,6 +120,7 @@ p {
   text-align: justify;
 }
 
+
 /*
 =======================================================
 *                   Custom Styles                     *
@@ -144,11 +145,6 @@ p {
   font-style: italic;
 }
 
-.image-left {
-  float: left;
-  margin-left: 15px;
-}
-
 .main-color {
   color: var(--main-color-bg);
 }
@@ -157,8 +153,34 @@ p {
   border: none;
 }
 
+.image-center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.image-left {
+  float:left;
+  max-width: 40%;
+  margin-right: 20px
+}
+
+.image-right {
+  float:right;
+  max-width: 40%;
+  margin-left: 20px
+}
+
 .text-center p {
   text-align: center;
+}
+
+.text-left p {
+  text-align: left;
+}
+
+.text-right p {
+  text-align: right;
 }
 
 /*

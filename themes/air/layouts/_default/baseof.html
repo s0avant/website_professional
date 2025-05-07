@@ -7,6 +7,10 @@
 <body>
 
   {{ partial "header.html" . }}
+  
+  {{ if .Params.profile }}
+    {{ partial "profile.html" . }}
+  {{ end }}
 
   {{ block "main" . }}{{ end }}
 
