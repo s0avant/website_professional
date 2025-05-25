@@ -120,7 +120,6 @@ p {
   text-align: justify;
 }
 
-
 /*
 =======================================================
 *                   Custom Styles                     *
@@ -143,6 +142,18 @@ p {
 
 .catchline {
   font-style: italic;
+}
+
+
+figure {
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 10px;
+  padding: 2px;
 }
 
 .icon svg {
@@ -180,12 +191,40 @@ p {
   text-align: center;
 }
 
+.text-justify p {
+  text-align: justify;
+}
+
 .text-left p {
   text-align: left;
 }
 
 .text-right p {
   text-align: right;
+}
+
+.text-s {
+  font-size: 10px;
+}
+
+.text-m {
+  font-size: 14px;
+}
+
+.text-l {
+  font-size: 18px;
+}
+
+.text-xl {
+  font-size: 24px;
+}
+
+.text-2xl {
+  font-size: 32px;
+}
+
+.text-4xl {
+  font-size: 48px;
 }
 
 /*

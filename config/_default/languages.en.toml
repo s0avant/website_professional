@@ -1,16 +1,17 @@
 [params]
 
 [params.author]
-  name = "Aimee M. Van Tatenhove"
-  image = "images/portrait-colour.png"
+  name = "Aimee M. Van Tatenhove, Ph.D."
+  image = "portrait-color.jpg"
   headline = "Quantitiative Ecologist"
-  # bio = "A little bit about you"
+  bio = ""
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
   #   { blogger = "https://username.blogspot.com/" },
+  #   { bluesky = "..." },
   #   { codepen = "https://codepen.io/username" },
   #   { dev = "https://dev.to/username" },
   #   { discord = "https://discord.gg/invitecode" },
@@ -23,7 +24,7 @@
   #   { google = "https://www.google.com/" },
     { google-scholar = "https://scholar.google.com/citations?hl=en&user=-Uax-WsAAAAJ" },
   #   { hashnode = "https://username.hashnode.dev" },
-    { instagram = "https://www.instagram.com/aimeevantatenhove/" },
+  #   { instagram = "https://www.instagram.com/aimeevantatenhove/" },
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { kofi = "https://ko-fi.com/username" },

@@ -4,26 +4,43 @@ catchline:
 type:
 ---
 
-{{< profile >}}
+</br>
 
+{{< figure src=portrait-color.jpg width=300 class=image-left caption="" >}}{{< profile >}}
 
-{{< figure src=pelican-transmitter.jpg width=500 class=image-left >}}
-##### Aimee M. Van Tatenhove, PhD
+I am a quantitative ecologist with a strong interest in data integration to inform species conservation efforts. I am currently a Rose postdoctoral fellow at the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/), where I use [eBird](https://ebird.org/home) data to improve avian population trend estimates and enable targeted conservation through innovative quantitative frameworks. My work is highly collaborative; I work under the direction of [Dr. Kylee Dunham](https://www.birds.cornell.edu/home/staff/kylee-dunham/) and closely with members of the [eBird Status and Trends](https://science.ebird.org/en/status-and-trends) team.
 
-I am a quantitative ecologist with an interest in data integration and improving avian population modeling frameworks, to better estimate avian population trends and inform species conservation efforts. Currently, I am a Rose postdoctoral fellow at the Cornell Lab of Ornithology in Ithaca, NY, USA. My primary research focus is to refine avian population status and trend models by integrating diverse avian and environmental data sources, including eBird data. I work under the direction of Dr. Kylee Dunham, and closely with members of the eBird Status and Trends team. I completed my PhD at Utah State University in 2024, co-advised by Drs. Clark Rushing and Erica Stuber. My doctoral research focused on American white pelican demography, migratory connectivity, historical population drivers, and airspace use. My work centered around the population of white pelicans west of the Rocky Mountains, with a focus on white pelicans around Great Salt Lake. Previously, I studied seabird nesting ecology and impacts of climate change on avian elevation distributions. I've conducted field work on a number of different systems, in diverse settings, including residential passerine research in upstate New York, nocturnal seabird surveys in rural Japan, and alcid nest searching in remote Alaska.
+I completed my PhD at Utah State University in 2024, co-advised by Drs. [Clark Rushing](https://www.rushinglab.com/) and [Erica Stuber](https://efstuber.wixsite.com/xscaleeco/), where I focused on American white pelican demography, migratory connectivity, historical population drivers, and airspace use.
 Unless noted otherwise, all media on this site, including header photos, are my personal work.
 
 ___
-##### Research Interests
 
-I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist. I am a quantitative ecologist.
+</br>
 
-* yup
-* yup
-* yup
-* yup
+{{< figure src=pelican-transmitter.jpg width=350 class=image-right caption="Photo credit: Brock Thornley" >}}
+
+</br>
+
+#### Research Interests
+* Avian population and migratory connectivity modeling
+* Data integration and integrated population models
+* Full annual cycle and carryover effects within migratory avian species
+* Anthropogenic climate change and impacts on sensitive species
+
+</br>
+</br>
 
 ___
-#### EMBED IMAGE
-##### Past Projects
-INSERT DYNAMIC LIST OF HIGHLIGHTED PUBS HERE
+
+</br>
+
+{{< figure src=tonygrove-banding.jpg width=350 class=image-left caption="Photo credit: Kim Savides" >}}
+#### Past Projects
+* Integrating painted bunting data sources to estimate migratory connectivity and survival [[article link](https://doi.org/10.1101/2020.07.23.217554)]
+* Montane passerine and sciurid rodent reactions to climate change [[article link](https://doi.org/10.3390/f10020084)]
+* Streaked shearwater predator avoidance behavior [[article link](http://www.marineornithology.org/content/get.cgi?rn=1273)] and nesting ecology [[article link](https://www.jstage.jst.go.jp/article/osj/18/2/18_189/_article/-char/en)]
+* Kittlitz's murrelet nesting ecology [[article link](https://www.fws.gov/uploadedFiles/Region_7/NWRS/Zone_2/Kodiak/PDF/Report2017.3_Kittlitz%27sMurreletNestingEcology_2016ProgressReport_KodiakNWR.pdf)]
+* 3D printed nest parasite egg rejection by American robins [[article link](https://peerj.com/articles/965/)] [[news article with video](https://www.earthtouchnews.com/discoveries/innovation/3d-printed-fake-eggs-could-help-us-find-out-how-birds-spot-impostors-in-the-nest/)]
+
+</br>
+</br>

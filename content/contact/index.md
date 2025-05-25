@@ -4,8 +4,19 @@ catchline:
 type: 
 ---
 
-#### Email
-amv48[at]cornell.edu
+</br>
+
+{{< figure src=pelican-sticker.png width=150 class=image-left caption="" >}}
+
+</br>
+
+{{< profile >}}
+
+</br>
+</br>
+</br>
+
+Please send me an email or connect with me online!
 
 #### Academic
 * ADD
