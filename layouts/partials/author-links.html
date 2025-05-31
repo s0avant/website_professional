@@ -8,7 +8,7 @@
           "email" "amv48@cornell.edu"
           "classCommon" "px-1"
           "classDisabled" "hover:text-neutral-200 dark:hover:text-neutral-700"
-          "classEnabled" "transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400 will-change-transform"
+          "classEnabled" "transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400 will-change-transform text-decoration-none"
           "Content" (partial "icon.html" "email")
         )
     }}
@@ -16,7 +16,7 @@
       {{ range $name, $url := $links }}
         {{ if ne $name "email" }}
           <a
-            class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+            class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400 text-decoration-none"
             style="will-change:transform;"
             href="{{ $url | safeURL }}"
             target="_blank"

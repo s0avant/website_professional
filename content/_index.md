@@ -21,9 +21,9 @@ ___
 
 </br>
 
-#### Research Interests
-* Avian population and migratory connectivity modeling
+#### Current Research
 * Data integration and integrated population models
+* Avian population and migratory connectivity modeling
 * Full annual cycle and carryover effects within migratory avian species
 * Anthropogenic climate change and impacts on sensitive species
 

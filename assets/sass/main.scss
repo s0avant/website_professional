@@ -126,6 +126,18 @@ p {
 =======================================================
 */
 
+ /* unvisited link */
+a {
+  text-decoration: none;
+  font-weight: 650;
+  color: #635D4E;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
 .bg-main-color {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -144,7 +156,6 @@ p {
   font-style: italic;
 }
 
-
 figure {
   padding: 4px;
   margin: auto;
@@ -159,14 +170,6 @@ figcaption {
 .icon svg {
   height: 2em;
   width: 2em;
-}
-
-.main-color {
-  color: var(--main-color-bg);
-}
-
-.no-border {
-  border: none;
 }
 
 .image-center {
@@ -185,6 +188,31 @@ figcaption {
   float:right;
   max-width: 100%;
   margin-left: 20px
+}
+
+.main-color {
+  color: var(--main-color-bg);
+}
+
+.no-border {
+  border: none;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+.table-narrow {
+  width: 25%;
+}
+
+.table-wide {
+  width: 100%;
+}
+
+td {
+  padding: 5px;
 }
 
 .text-center p {
@@ -212,15 +240,15 @@ figcaption {
 }
 
 .text-l {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text-xl {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .text-2xl {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .text-4xl {

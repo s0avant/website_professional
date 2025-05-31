@@ -1,0 +1,46 @@
+<div style="grid-container">
+  {{ with (.Get "h1") -}}
+  <h1>{{ . | markdownify | emojify }}</h1>
+  {{- end -}}
+  
+  {{ with (.Get "h2") -}}
+  <h2>{{ . | markdownify | emojify }}</h2>
+  {{- end -}}
+  
+  {{ with (.Get "h3") -}}
+  <h3>{{ . | markdownify | emojify }}</h3>
+  {{- end -}}
+  
+  {{ with (.Get "h4") -}}
+  <h4>{{ . | markdownify | emojify }}</h4>
+  {{- end -}}
+  
+  {{ with (.Get "text") -}}
+  <p>{{ . | markdownify | emojify }}</p>
+  {{- end -}}
+  
+  
+  {{- $u := urls.Parse (.Get "src") -}}
+  {{- $src := $u.String -}}
+  {{- if not $u.IsAbs -}}
+    {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
+      {{- $src = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
+  <img src="{{ $src }}"
+    {{- if (.Get "alt") }}
+    alt="{{ .Get "alt" }}{{ . }}"
+    {{- end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
+  ></a>
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
