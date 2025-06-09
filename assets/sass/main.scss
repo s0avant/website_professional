@@ -130,7 +130,7 @@ p {
 a {
   text-decoration: none;
   font-weight: 650;
-  color: #635D4E;
+  color: #997777;
 }
 
 /* mouse over link */
@@ -161,10 +161,14 @@ figure {
   margin: auto;
 }
 
-figcaption {
+figcaption p {
   font-style: italic;
   font-size: 10px;
   padding: 2px;
+  color: lightgrey
+}
+
+.grid-container {
 }
 
 .icon svg {
