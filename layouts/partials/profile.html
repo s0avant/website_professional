@@ -1,8 +1,9 @@
 {{- /* Adapted from themes/congo/layouts/partials/profile.html. */ -}}
 
-<header class="flex flex-col items-center text-left min-w-48 w-56 sm:w-52 sm:h-auto sm:mr-6 md:mr-8 lg:mr-12">
+  {{ $textalign := .Get "text-align" }}
+<header class="flex flex-col items-center min-w-48 w-56 sm:w-52 sm:h-auto sm:mr-6 md:mr-8 lg:mr-12" style="text-align: {{ $textalign }};">
   {{ $lazy := site.Params.enableImageLazyLoading | default true }}
-  {{ $altText := (site.Language.Params.Author.name | default "Author") }}
+  {{ $altText := site.Language.Params.Author.name | default "Author" }}
   {{ with site.Language.Params.Author.image }}
     {{ $authorImage := resources.Get . }}
     {{ if $authorImage }}

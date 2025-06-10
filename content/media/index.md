@@ -9,13 +9,15 @@ ___
 
 </br>
 
-| | |
-| :- | :- |
-| {{< floating-content h4="Media features" >}} | {{< floating-content text="(mm/dd/yyy)" >}} |
-
-
+{{< floating-content text-align="left" >}}
 #### Media features
+---
 ###### (mm/dd/yyy)
+---
+---
+---
+{{< /floating-content >}}
+
 * **2025**
   + Chewy: Why Do Birds Migrate, and When? (03.10.2025) [[link](https://www.chewy.com/education/bird-migration)]
 * **2024**

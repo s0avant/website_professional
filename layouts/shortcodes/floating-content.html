@@ -1,11 +1,10 @@
-{{ $textalign := .Get "text-align" | default "center" }}
-{{ $height := .Get "height" | default "auto" }}
-{{ $width := .Get "width" | default "100%" }}
-
-<div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));">
+<div class="flex-container" style="display: flex; flex-direction: row; flex-wrap: nowrap;">
+  {{ $textalign := .Get "text-align" | default "center" }}
+  {{ $height := .Get "height" | default "auto" }}
+  {{ $width := .Get "width" | default "100%" }}
   {{ range (split .Inner "---") }}
-    <div class="grid-panel" style="text-align: {{ $textalign }}; height: {{ $height }}; width: {{ $width }};">
-      {{ . | markdownify | emojify }}
+    <div style="align-self:center; text-align: {{ $textalign }}; height: {{ $height }}; width: {{ $width }};">
+      {{ . | markdownify | emojify  | safeHTML }}
     </div>
   {{ end }}
 </div>

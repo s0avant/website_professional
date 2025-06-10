@@ -3,15 +3,13 @@ title: Contact
 catchline:
 type: 
 ---
+</br>
+
+{{< figure src=pelican-logo.png width=100 class=image-left caption="" >}}
 
 </br>
 
-{{< figure src=pelican-sticker.png width=150 class=image-left caption="" >}}
-
-</br>
-
-{{< profile >}}
-
+{{< profile text-align="right" >}}
 
 </br>
 </br>
@@ -23,7 +21,7 @@ Want to connect? Send me an email or find me online!
 * ADD
 
 #### Social Media
-Mostly non-science nonsense and the occasional post about data analysis frustration. Opinions my own!
+Mostly non-science nonsense (bread! cats!) and the occasional post about data analysis frustration. Opinions my own!
 * Bluesky ([@full_o_fullmars.bksy.social](https://bsky.app/profile/full-o-fulmars.bsky.social))
 * Instagram ([@aimeevantatenhove](https://www.instagram.com/aimeevantatenhove/))
 * Mastodon ([@full_o_fulmars@ecoevo.social](https://ecoevo.social/@full_o_fulmars))

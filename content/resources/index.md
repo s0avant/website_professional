@@ -44,7 +44,7 @@ ___
 
 </br>
 
-#### Miscellaneous external resources
+#### Miscellaneous resources
 * Creating a personal academic website [[link](https://peerrecognized.com/website/)]
 * How to write a student travel award application [[link](https://wildlifesnpits.wordpress.com/2016/06/13/how-to-write-a-student-travel-award-application/)]
 * Proteus - Darryl MacKenzie: Statistics how-to and occupancy modeling (YouTube) [[link](https://www.youtube.com/user/ProteusWRC/)]
