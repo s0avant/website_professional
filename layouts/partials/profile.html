@@ -1,6 +1,6 @@
 {{- /* Adapted from themes/congo/layouts/partials/profile.html. */ -}}
 
-  {{ $textalign := .Get "text-align" }}
+{{ $textalign := .Get "text-align" }}
 <header class="flex flex-col items-center min-w-48 w-56 sm:w-52 sm:h-auto sm:mr-6 md:mr-8 lg:mr-12" style="text-align: {{ $textalign }};">
   {{ $lazy := site.Params.enableImageLazyLoading | default true }}
   {{ $altText := site.Language.Params.Author.name | default "Author" }}

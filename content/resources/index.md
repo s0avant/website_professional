@@ -7,7 +7,7 @@ catchline:
 
 #### Getting started: research & publishing
 * **Graduate school**
-  + Advice on Applying to Graduate School in Ecology and Evolutionary Biology: How to Prepare and a Step-By-Step Guide [[link](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)]
+  + Advice on applying to graduate school in ecology and evolutionary biology: How to prepare and a step-by-step guide [[link](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)]
 * **Peer review**
   + Peer review should be an honest, but collegial, conversation [[link](https://www.nature.com/articles/d41586-020-01622-z)]
   + The golden rule of reviewing [[link (PDF)](https://www.journals.uchicago.edu/doi/pdf/10.1086/598847)]
@@ -15,6 +15,7 @@ catchline:
   + A protocol for conducting and presenting results of regression-type analyses [[link (PDF)](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.12577)]
   + A protocol for data exploration to avoid common statistical problems [[link (PDF)](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2041-210X.2009.00001.x)]
   + Good enough practices in scientific computing [[link](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)]
+  + Nature Reviews: methods primers [[link](https://www.nature.com/nrmp/)]
 * **Scientific writing**
   + Writing a scientific article: A step-by-step guide for beginners [[link](https://doi.org/10.1016/j.eurger.2015.08.005)]
 

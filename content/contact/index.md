@@ -9,7 +9,7 @@ type:
 
 </br>
 
-{{< profile text-align="right" >}}
+{{< profile text-align="center" >}}
 
 </br>
 </br>

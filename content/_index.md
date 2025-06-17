@@ -6,7 +6,7 @@ type:
 
 </br>
 
-{{< figure src=portrait-color.jpg width=300 class=image-left caption="" >}}{{< profile >}}
+{{< figure src=portrait-color.jpg width=300 class=image-left caption="" >}}{{< profile text-align="left" >}}
 
 I am a quantitative ecologist with a strong interest in data integration to inform species conservation efforts. I am currently a Rose postdoctoral fellow at the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/), where I use [eBird](https://ebird.org/home) data to improve avian population trend estimates and enable targeted conservation through innovative quantitative frameworks. My work is highly collaborative; I work under the direction of [Dr. Kylee Dunham](https://www.birds.cornell.edu/home/staff/kylee-dunham/) and closely with members of the [eBird Status and Trends](https://science.ebird.org/en/status-and-trends) team.
 
