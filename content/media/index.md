@@ -3,6 +3,8 @@ title: Media
 catchline:
 ---
 
+</br>
+
 This is a place for interviews, media publications, and other outreach I've participated in, as well as a home for my various media creations. Posts & opinions my own.
 
 ___
@@ -12,13 +14,14 @@ ___
 {{< floating-content text-align="left" >}}
 #### Media features
 ---
-###### (mm/dd/yyy)
+###### (mm/dd/yyyy)
 ---
 ---
 ---
 {{< /floating-content >}}
 
 * **2025**
+  + Audubon Magazine: How Do Seabirds Drink Salt Water? (08.07.2025) [[link](https://www.audubon.org/magazine/how-do-seabirds-drink-salt-water)]
   + Chewy: Why Do Birds Migrate, and When? (03.10.2025) [[link](https://www.chewy.com/education/bird-migration)]
 * **2024**
   + Utah Public Radio: Hundreds of pelicans return to previously abandoned Great Salt Lake islands (05.09.2024) [[link](https://www.upr.org/environment/2024-05-09/hundreds-of-pelicans-return-to-previously-abandoned-great-salt-lake-islands)]
@@ -91,7 +94,7 @@ ___
 
 #### GIS Showcase
 
-I've taken a few GIS courses in grad school, including a course that required us to make a website for all of our maps. If you want to look at my (older!) GIS work, take a look at it [[here](https://sites.google.com/view/aimee-van-tatenhoves-gis-site/home)].
+I've taken a few GIS courses in grad school, including a course that required us to make a website for all of our maps. If you want to look at my (older!) GIS work, take a look at it [here](https://sites.google.com/view/aimee-van-tatenhoves-gis-site/home).
 
 </br>
 </br>

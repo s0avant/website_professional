@@ -18,8 +18,8 @@ theme = "air"
   weight = 10
 
 [[menu.main]]
-  name = "Mentoring"
-  pageRef = "/mentoring"
+  name = "CV"
+  pageRef = "/cv"
   weight = 20
 
 [[menu.main]]

@@ -69,7 +69,8 @@
   {{ with .Resources.Get "featured-image.jpg" }}
     {{ $largeImage := .Resize "1920x webp q75" }}
     {{ $smallImage := .Resize "960x webp q75" }}
-    <div class="headerImage" small-Image="{{ $smallImage.RelPermalink | relURL }}"
+    <div class="headerImage"
+      small-Image="{{ $smallImage.RelPermalink | relURL }}"
       large-Image="{{ $largeImage.RelPermalink | relURL }}">
   {{ end }}
 

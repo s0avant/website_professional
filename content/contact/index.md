@@ -4,24 +4,26 @@ catchline:
 type: 
 ---
 </br>
-
-{{< figure src=pelican-logo.png width=100 class=image-left caption="" >}}
-
-</br>
-
-{{< profile text-align="center" >}}
+{{< figure src=portrait-color.jpg width=150 class=image-left caption="" >}}{{< profile text-align="left" >}}
 
 </br>
-</br>
-</br>
 
-Want to connect? Send me an email or find me online!
+Want to connect? Send me an email (click the envelope icon above) or find me online!
+
+</br>
+</br>
+</br>
 
 #### Academic
-* ADD
+
+* Github ([s0avant](https://github.com/s0avant))
+* Google Scholar [[link](https://scholar.google.com/citations?hl=en&user=-Uax-WsAAAAJ)]
+* LinkedIn [[link](https://www.linkedin.com/in/aimee-van-tatenhove-319b0bb4/)]
+* Orcid ([0000-0003-2483-1055](https://orcid.org/0000-0003-2483-1055))
+* ResearchGate [[link](https://www.researchgate.net/profile/Aimee-Van-Tatenhove)]
 
 #### Social Media
-Mostly non-science nonsense (bread! cats!) and the occasional post about data analysis frustration. Opinions my own!
+Mostly non-science nonsense (bread! cats!) and the occasional post about data analysis frustration. Opinions my own.
 * Bluesky ([@full_o_fullmars.bksy.social](https://bsky.app/profile/full-o-fulmars.bsky.social))
 * Instagram ([@aimeevantatenhove](https://www.instagram.com/aimeevantatenhove/))
 * Mastodon ([@full_o_fulmars@ecoevo.social](https://ecoevo.social/@full_o_fulmars))
