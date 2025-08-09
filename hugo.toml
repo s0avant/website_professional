@@ -8,6 +8,10 @@ theme = "air"
   gmaps_url = ""
   [params.footer]
     copyright = "© 2018–{year} Aimee M. Van Tatenhove, Ph.D."
+    
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [services.googleAnalytics]
   id = "" #G-MKFPZMY2YP
