@@ -28,27 +28,27 @@ ___
 * Big data integration and integrated population models
 * Avian population and migratory connectivity modeling
 * Full annual cycle and carryover effects in migratory avian systems
-* Anthropogenic climate change and impacts on sensitive species
+* Anthropogenic land-use and climate change and associated impacts on sensitive species
 
-</br>
 </br>
 </br>
 
 ___
 
+
 </br>
 
 {{< figure src=tonygrove-banding.jpg width=350 class=image-left caption="Photo credit: Kim Savides" >}}
-#### Past Projects
-* Integrating passerine data sources to estimate migratory connectivity and survival [[article link](https://doi.org/10.1101/2020.07.23.217554)]
-* Climate-mediated avian elevational range shifts [[article link](https://doi.org/10.3390/f10020084)]
-* Streaked shearwater predator avoidance behavior [[article link](http://www.marineornithology.org/content/get.cgi?rn=1273)] and nesting ecology [[article link](https://www.jstage.jst.go.jp/article/osj/18/2/18_189/_article/-char/en)]
-* Kittlitz's murrelet nesting ecology [[article link](https://www.fws.gov/uploadedFiles/Region_7/NWRS/Zone_2/Kodiak/PDF/Report2017.3_Kittlitz%27sMurreletNestingEcology_2016ProgressReport_KodiakNWR.pdf)]
-* 3D printed nest parasite egg rejection by American robins [[article link](https://peerj.com/articles/965/)] [[news article with video](https://www.earthtouchnews.com/discoveries/innovation/3d-printed-fake-eggs-could-help-us-find-out-how-birds-spot-impostors-in-the-nest/)]
+
 {{< render-html >}}
-<ul.inside>
-<li>Integrating painted bunting data sources to estimate migratory connectivity and survival [<a href="https://doi.org/10.1101/2020.07.23.217554">article link</a>]</li>
-</ul.inside>
+<h4>Past Projects</h4>
+<ul>
+<li-image-left>Integrating passerine data sources to estimate migratory connectivity and survival [<a href="https://doi.org/10.1101/2020.07.23.217554">article link</a>]</li-image-left>
+<li-image-left>Climate-mediated avian elevational range shifts [<a href="https://doi.org/10.3390/f10020084">article link</a>]</li-image-left>
+<li-image-left>Streaked shearwater predator avoidance behavior [<a href="http://www.marineornithology.org/content/get.cgi?rn=1273">article link</a>] and nesting ecology [<a href="https://www.jstage.jst.go.jp/article/osj/18/2/18_189/_article/-char/en">article link</a>]</li-image-left>
+<li-image-left>Kittlitz's murrelet nesting ecology [<a href="https://www.fws.gov/uploadedFiles/Region_7/NWRS/Zone_2/Kodiak/PDF/Report2017.3_Kittlitz%27sMurreletNestingEcology_2016ProgressReport_KodiakNWR.pdf">article link</a>]</li-image-left>
+<li-image-left>Testing nest parasite egg rejection by American robins using 3D printed eggs [<a href="https://peerj.com/articles/965/">article link</a>] [<a href="https://www.earthtouchnews.com/discoveries/innovation/3d-printed-fake-eggs-could-help-us-find-out-how-birds-spot-impostors-in-the-nest/">news article with video</a>]</li-image-left>
+</ul>
 {{< /render-html >}}
 
 </br>

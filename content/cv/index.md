@@ -4,6 +4,8 @@ catchline:
 ---
 </br>
 
+Download [[here](https://docs.google.com/document/d/1RbEKcZN_0gMwGaNGw0dmxoEmll1oWw0fB6OTZv62QrU/edit?usp=sharing)] or view below:
+
 {{< render-html >}}
  <div class="cv-container">
   <iframe class="responsive-iframe"

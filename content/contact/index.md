@@ -8,7 +8,7 @@ type:
 
 </br>
 
-Want to connect? Send me an email (click the envelope icon above) or find me online!
+Want to connect? Find me online or send me an email (click the envelope icon above)!
 
 </br>
 </br>
