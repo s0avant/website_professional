@@ -21,6 +21,7 @@ ___
 {{< /floating-content >}}
 
 * **2025**
+  + Barron's (AFP News): Climate Heat Extremes Driving Tropical Bird Decline: Study (08.11.2025) [[link](https://www.barrons.com/news/climate-heat-extremes-driving-tropical-bird-decline-study-e9439578)]
   + Audubon Magazine: How Do Seabirds Drink Salt Water? (08.07.2025) [[link](https://www.audubon.org/magazine/how-do-seabirds-drink-salt-water)]
   + Chewy: Why Do Birds Migrate, and When? (03.10.2025) [[link](https://www.chewy.com/education/bird-migration)]
 * **2024**
