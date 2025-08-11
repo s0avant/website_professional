@@ -1,10 +1,10 @@
-baseURL = "https://www.avantatenhove.com/"
+baseURL = "https://avantatenhove.com/"
 languageCode = "en-us"
 title = "avantatenhove"
 theme = "air"
 
 [params]
-  author = { name = "Aimee M. Van Tatenhove PhD", siteUrl = "https://www.avantatenhove.com" }
+  author = { name = "Aimee M. Van Tatenhove PhD", siteUrl = "https://avantatenhove.com" }
   gmaps_url = ""
   [params.footer]
     copyright = "© 2018–{year} Aimee M. Van Tatenhove, Ph.D."
