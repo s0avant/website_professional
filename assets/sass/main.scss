@@ -11,6 +11,7 @@ It can be overridden in the config file by setting "Params.mainColor" to any col
 :root {
   --main-color-bg: #f5f5f4; /* default background color */
   --main-color-text: #000; /* default text color */
+  overflow-x: hidden;
   
 }
 

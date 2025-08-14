@@ -78,10 +78,14 @@ ___
 #### YouTube
 I occasionally put together short YouTube videos of my time in the field conducting research and recreating. Check them out here or on my [YouTube channel](https://www.youtube.com/channel/UCcfPF8k77F6CO50X3z8fPnQ). Fieldwork videos include a full season of point count adventures in New Hampshire and pelican and songbird work in Utah.
 
-|   |   |
-| - | - |
-| {{< youtube-playlist list=PLbhOVxCutFTJrrHkJ1J2ad4juOEcgxv-T >}} | {{< youtube-playlist list=PLbhOVxCutFTK0FTlQT0IkVpeGvws9FNNg >}} |
+{{< render-html >}}
 
+<table>
+<td>{{< youtube-playlist list=PLbhOVxCutFTJrrHkJ1J2ad4juOEcgxv-T >}}</td>
+<td>{{< youtube-playlist list=PLbhOVxCutFTK0FTlQT0IkVpeGvws9FNNg >}}</td>
+</table>
+
+{{< /render-html >}}
 
 </br>
 

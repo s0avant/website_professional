@@ -6,7 +6,7 @@ type:
 
 </br>
 
-{{< wrap-text-image src=portrait-color.jpg class=image-left width=225 >}}
+{{< wrap-text-image src=portrait-color.jpg class=image-left width=250 >}}
 {{< profile text-align="left" >}}
 {{% render-markdown %}}
 </br>
