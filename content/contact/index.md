@@ -4,11 +4,14 @@ catchline:
 type: 
 ---
 </br>
-{{< figure src=portrait-color.jpg width=150 class=image-left caption="" >}}{{< profile text-align="left" >}}
 
+{{< wrap-text-image src=portrait-color.jpg class=image-left width=150 >}}
+{{< profile text-align="left" >}}
 </br>
 
 Want to connect? Find me online or send me an email (click the envelope icon above)!
+
+{{< /wrap-text-image >}}
 
 </br>
 </br>
