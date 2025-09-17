@@ -4,7 +4,7 @@ title = "avantatenhove"
 theme = "air"
 
 [params]
-  author = { name = "Aimee M. Van Tatenhove PhD", siteUrl = "https://avantatenhove.com" }
+  author = { name = "Aimee M. Van Tatenhove Ph.D.", siteUrl = "https://avantatenhove.com" }
   gmaps_url = ""
   [params.footer]
     copyright = "© 2018–{year} Aimee M. Van Tatenhove, Ph.D."
