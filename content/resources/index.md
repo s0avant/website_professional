@@ -8,6 +8,8 @@ catchline:
 #### Getting started: research & publishing
 * **Graduate school**
   + Advice on applying to graduate school in ecology and evolutionary biology: How to prepare and a step-by-step guide [[link](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)]
+  + A comprehensive guide by Brian O’Meara on applying to US graduate schools (targeted toward EEB, but broadly applicable to ecology) [[link](https://applyingtoeeb.info/)]
+    - Includes a section specifically for prospective international students [[link](https://applyingtoeeb.info/marcondes_intl.html)]
 * **Peer review**
   + Peer review should be an honest, but collegial, conversation [[link](https://www.nature.com/articles/d41586-020-01622-z)]
   + The golden rule of reviewing [[link (PDF)](https://www.journals.uchicago.edu/doi/pdf/10.1086/598847)]
