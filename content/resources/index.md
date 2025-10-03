@@ -5,9 +5,17 @@ catchline:
 
 </br>
 
+A list of various resources I've found useful over the years. Please [contact me](/contact) if you find a broken link or would like to suggest a resource.
+
+*Updated October 2025*
+
+___
+
+</br>
+
 #### Getting started: research & publishing
 * **Graduate school**
-  + Advice on applying to graduate school in ecology and evolutionary biology: How to prepare and a step-by-step guide [[link](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)]
+  + ESA Bulletin: Advice on applying to graduate school in ecology and evolutionary biology [[link](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1917)]
   + A comprehensive guide by Brian O’Meara on applying to US graduate schools (targeted toward EEB, but broadly applicable to ecology) [[link](https://applyingtoeeb.info/)]
     - Includes a section specifically for prospective international students [[link](https://applyingtoeeb.info/marcondes_intl.html)]
 * **Peer review**
