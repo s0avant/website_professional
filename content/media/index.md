@@ -80,10 +80,14 @@ I occasionally put together short YouTube videos of my time in the field conduct
 
 {{< render-html >}}
 
-<table>
-<td>{{< youtube-playlist list=PLbhOVxCutFTJrrHkJ1J2ad4juOEcgxv-T >}}</td>
-<td>{{< youtube-playlist list=PLbhOVxCutFTK0FTlQT0IkVpeGvws9FNNg >}}</td>
-</table>
+    <div class="video-container">
+        <div class="video">
+            {{< youtube-playlist height=100% width=100% list=PLbhOVxCutFTJrrHkJ1J2ad4juOEcgxv-T >}}
+        </div>
+        <div class="video">
+            {{< youtube-playlist height=100% width=100% list=PLbhOVxCutFTK0FTlQT0IkVpeGvws9FNNg >}}
+        </div>
+    </div>
 
 {{< /render-html >}}
 

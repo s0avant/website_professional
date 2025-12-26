@@ -1,7 +1,8 @@
-<div class="flex-container" style="display: flex; flex-direction: row; flex-wrap: nowrap;">
+{{ $height := .Get "height" | default "auto" }}
+{{ $width := .Get "width" | default "100%" }}
+
+<div class="flex-container" style="display: flex; flex-direction: row; flex-wrap: nowrap; height:{{ $height }}">
   {{ $textalign := .Get "text-align" | default "center" }}
-  {{ $height := .Get "height" | default "auto" }}
-  {{ $width := .Get "width" | default "100%" }}
   {{ range (split .Inner "---") }}
     <div style="align-self:center; text-align: {{ $textalign }}; height: {{ $height }}; width: {{ $width }};">
       {{ . | markdownify | emojify  | safeHTML }}

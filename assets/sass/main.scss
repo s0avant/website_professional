@@ -292,6 +292,17 @@ td {
   font-size: 48px;
 }
 
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video {
+    flex: 1;
+    min-width: 300px; /* Adjust this value based on your needs */
+    margin: 10px;
+}
+
 /*
 =======================================================
 *                Navbar, Menu Links                   *

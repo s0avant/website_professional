@@ -54,7 +54,9 @@ Renders an embedded YouTube playlist. Modified from default Hugo youtube shortco
     {{- end }}
 
     {{- /* Set iframe attributes. */}}
-    {{- $iframeStyle := "position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" }}
+    {{- $iframeStyle := "position: absolute; top: 0; left: 0; border: 0;" }}
+      {{- $height := .Get "height" | default "auto" }}
+      {{- $width := .Get "width" | default "100%" }}
     {{- if $class }}
       {{- $iframeStyle = "" }}
     {{- end }}
@@ -62,13 +64,13 @@ Renders an embedded YouTube playlist. Modified from default Hugo youtube shortco
   {{- /* Render. */ -}}
     <div
       {{- with $class }} class="{{ . }}" {{- end }}
-      {{- with $divStyle }} style="{{ . | safeCSS }}" {{- end -}}
+      {{- with $divStyle }} style="{{ . | safeCSS }}; height: {{ $height }}; width: {{ $width }};" {{- end -}}
     >
       <iframe
       {{- with $iframeAllowList }} allow="{{ . }}" {{- end }}
       {{- with $loading }} loading="{{ . }}" {{- end }}
       {{- with $src }} src="{{ . }}" {{- end }}
-      {{- with $iframeStyle}} style="{{ . | safeCSS }}" {{- end }}
+      {{- with $iframeStyle}} style="{{ . | safeCSS }}; height: {{ $height }}; width: {{ $width }};" {{- end }}
       {{- with $title }} title="{{ . }}" {{- end -}}
       ></iframe>
     </div>
