@@ -26,7 +26,7 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 
 </br>
 
-{{< wrap-text-image src=pelican-transmitter.jpg class=image-right width=425 caption="Photo credit: Brock Thornley" >}}
+{{< wrap-text-image src=pelican-transmitter.jpg class=image-right width=400 caption="Photo credit: Brock Thornley" >}}
 {{% render-markdown %}}
 </br>
 
@@ -46,7 +46,7 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 ---
 </br>
 
-{{< wrap-text-image src=tonygrove-banding.jpg class=image-left width=425 caption="Photo credit: Kim Savides" >}}
+{{< wrap-text-image src=tonygrove-banding.jpg class=image-left width=400 caption="Photo credit: Kim Savides" >}}
 {{< render-html >}}
 
 <table>
