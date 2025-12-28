@@ -92,18 +92,4 @@ I occasionally put together short YouTube videos of my time in the field conduct
 {{< /render-html >}}
 
 </br>
-
-___
-
-</br>
-
-{{< figure src=gis-website.png width=450 class=image-left >}}
-
-</br>
-
-#### GIS Showcase
-
-I've taken a few GIS courses in grad school, including a course that required us to make a website for all of our maps. If you want to look at my (older!) GIS work, take a look at it [here](https://sites.google.com/view/aimee-van-tatenhoves-gis-site/home).
-
-</br>
 </br>

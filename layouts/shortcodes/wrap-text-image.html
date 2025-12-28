@@ -2,18 +2,26 @@
 <head>
     <style>
         .image-left {
+            display: flex;
             float: left;
-            margin-left: 0px;
-            margin-right: 15px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: 15px;
+            margin-right: 10px;
         }
         
         .image-right {
+            display: flex;
             float: right;
+            flex-wrap: wrap;
+            justify-content: space-around;
             margin-left: 15px;
-            margin-right: 0px;
+            margin-right: 10px;
         }
         
         figure {
+            position: relative;
+            text-align: center;
             padding: 4px;
             margin: auto;
         }
@@ -22,7 +30,11 @@
             font-style: italic;
             font-size: 10px;
             padding: 2px;
-            color: #999999
+            color: #FFF;
+            text-shadow: 0.5px 0.5px grey;
+            position: absolute;
+            bottom: 4px;
+            right: 8px;
         }
     </style>
 </head>
