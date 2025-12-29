@@ -200,24 +200,26 @@ a:hover {
 
 @media (max-width: 500px) {
    .img-phone-h {
-     max-height: 100px;
+     height: 150px;
+     width: auto;
      padding-right: 15px;
    }
    .img-phone-w {
-     max-width: 100px;
      height: auto;
+     width: 100px;
      padding-right: 15px;
    }
 }
 
 @media (max-width: 768px) {
    .img-tablet-h {
-     max-height: 300px;
+     height: 200px;
+     width: auto;
      padding-right: 15px;
    }
    .img-tablet-w {
-     max-width: 400px;
      height: auto;
+     width: 350px;
      padding-right: 15px;
    }
 }
