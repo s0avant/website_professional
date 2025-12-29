@@ -15,13 +15,14 @@
     {{ $imagealign := .Get "image-align" }}
     {{ $textalign := .Get "text-align" | default "left" }}
     {{ $src := .Get "src" }}
+    {{ $resize := .Get "resize" }}
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
     {{ $captionalign := .Get "caption-align" }}
     {{ $width := .Get "width" | default "200" }}
     
   <div style="float:{{ $imagealign }}">
-      <img class="img-browser img-phone-v img-tablet-v" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+      <img class="img-browser {{ $resize }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
             {{ if $caption }}
                 <figcaption style="left:{{ $captionalign }}">{{ $caption }}</figcaption>
             {{ end }}
