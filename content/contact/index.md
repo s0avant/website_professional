@@ -5,7 +5,11 @@ type:
 ---
 </br>
 
-{{< wrap-text-image src=portrait-color.jpg resize="img-tablet-h img-phone-h" image-align=left width=150 >}}
+{{< wrap-text-image src=portrait-color.jpg
+resizetablet=img-tablet-h resizephone=img-phone-h
+image-align=left width=150px >}}
+
+
 {{< profile text-align="left" >}}
 </br>
 

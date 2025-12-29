@@ -7,7 +7,7 @@ type:
 </br>
 
 {{< wrap-text-image src=portrait-color.jpg
-resize-tablet=img-tablet-h resize-phone=img-phone-h
+resizetablet=img-tablet-h resizephone=img-phone-h
 image-align=left width=250px >}}
 
 {{< profile text-align="left" >}}
@@ -29,7 +29,7 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 </br>
 
 {{< stack-text-image src=pelican-transmitter.jpg
-resize-tablet=img-tablet-w resize-phone=img-phone-w
+resizetablet=img-tablet-w resizephone=img-phone-w
 order1=2 order2=1 width=400px
 caption="Photo credit: Brock Thornley" >}}
 
@@ -48,7 +48,7 @@ caption="Photo credit: Brock Thornley" >}}
 ---
 
 {{< stack-text-image src=tonygrove-banding.jpg
-resize-tablet=img-tablet-w resize-phone=img-phone-w
+resizetablet=img-tablet-w resizephone=img-phone-w
 order1=1 order2=2 width=400px
 caption="Photo credit: Kim Savides" >}}
 
