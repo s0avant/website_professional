@@ -64,8 +64,8 @@
 <body>
     {{ $wrap := .Get "wrap" }}
     {{ $src := .Get "src" }}
-    {{ $resizetablet := .Get "resizetablet" }}
     {{ $resizephone := .Get "resizephone" }}
+    {{ $resizetablet := .Get "resizetablet" }}
     {{ $order1 := .Get "order1" | default "1" }}
     {{ $order2 := .Get "order2" | default "2" }}
     {{ $alt := .Get "alt" }}
@@ -75,7 +75,7 @@
 <div class="flex-outer" style="flex-wrap:{{ $wrap }}">
   <div class="flex-inner" style="order:{{ $order1 }}">
     <figure>
-        <img class="img-browser {{ $resizetablet }} {{ $resizephone }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+        <img class="img-browser {{ $resizephone }} {{ $resizetablet }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
         {{ if $caption }}
             <figcaption class="figcaption-browser figcaption-phone figcaption-tablet">
               {{ $caption }}

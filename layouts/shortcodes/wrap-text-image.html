@@ -43,14 +43,14 @@
     {{ $imagealign := .Get "image-align" }}
     {{ $textalign := .Get "text-align" | default "left" }}
     {{ $src := .Get "src" }}
-    {{ $resizetablet := .Get "resizetablet" }}
     {{ $resizephone := .Get "resizephone" }}
+    {{ $resizetablet := .Get "resizetablet" }}
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
     {{ $width := .Get "width" | default "200px" }}
     
   <div style="float:{{ $imagealign }}">
-      <img class="img-browser {{ $resizetablet }} {{ $resizephone }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+      <img class="img-browser {{ $resizephone }} {{ $resizetablet }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
             {{ if $caption }}
               <figcaption class="figcaption-browser figcaption-phone figcaption-tablet">
             {{ end }}
