@@ -70,7 +70,7 @@
     {{ $order2 := .Get "order2" | default "2" }}
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
-    {{ $width := .Get "width" | default "200px" }}
+    {{ $width := .Get "width" }}
 
 <div class="flex-outer" style="flex-wrap:{{ $wrap }}">
   <div class="flex-inner" style="order:{{ $order1 }}">

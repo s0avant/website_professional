@@ -47,7 +47,7 @@
     {{ $resizetablet := .Get "resizetablet" }}
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
-    {{ $width := .Get "width" | default "200px" }}
+    {{ $width := .Get "width" }}
     
   <div style="float:{{ $imagealign }}">
       <img class="img-browser {{ $resizephone }} {{ $resizetablet }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
