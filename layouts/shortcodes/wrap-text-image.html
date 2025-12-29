@@ -19,7 +19,7 @@
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
     {{ $captionalign := .Get "caption-align" }}
-    {{ $width := .Get "width" | default "200" }}
+    {{ $width := .Get "width" | default "200px" }}
     
   <div style="float:{{ $imagealign }}">
       <img class="img-browser {{ $resize }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
