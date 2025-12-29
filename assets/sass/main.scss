@@ -201,7 +201,7 @@ a:hover {
 @media (max-width: 360px) {
    .img-phone-h {
      overflow: hidden;
-     max-height: 100px;
+     max-height: 10px;
      width: auto;
      padding-right: 15px;
    }
@@ -231,6 +231,7 @@ a:hover {
 @media (min-width: 768px) {
    .img-browser {
      overflow: hidden;
+     height: auto;
      padding-right: 15px;
    }
 }

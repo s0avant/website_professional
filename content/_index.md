@@ -8,7 +8,7 @@ type:
 
 {{< wrap-text-image src=portrait-color.jpg
 resize-tablet=img-tablet-h resize-phone=img-phone-h
-image-align=left width=250 >}}
+image-align=left width=250px >}}
 
 {{< profile text-align="left" >}}
 
