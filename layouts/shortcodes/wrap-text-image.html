@@ -1,63 +1,37 @@
 <div>
 <head>
     <style>
-        .image-left {
-            display: flex;
-            float: left;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-left: 15px;
-            margin-right: 10px;
-            max-width: 100%;
-            height: auto;
-            overflow: hidden;
-        }
-        
-        .image-right {
-            display: flex;
-            float: right;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-left: 15px;
-            margin-right: 10px;
-            max-width: 100%;
-            height: auto;
-            overflow: hidden;
-        }
-        
-        figure {
-            position: relative;
-            text-align: center;
-            padding: 4px;
-            margin: auto;
-        }
-
         figcaption {
             font-style: italic;
             font-size: 9px;
-            padding: 2px;
             color: #FFF;
             text-shadow: 0.7px 0.7px 1px #333;
-            position: absolute;
-            bottom: 4px;
-            right: 8px;
+            position: relative;
+            bottom: 16px;
         }
     </style>
 </head>
 <body>
+    {{ $imagealign := .Get "image-align" }}
+    {{ $textalign := .Get "text-align" | default "left" }}
     {{ $src := .Get "src" }}
     {{ $alt := .Get "alt" }}
-    {{ $caption := .Get "caption"}}
-    {{ $class := .Get "class" | default "image-left" }}
+    {{ $caption := .Get "caption" }}
+    {{ $captionalign := .Get "caption-align" }}
     {{ $width := .Get "width" | default "200" }}
-    <figure class="{{ $class }}">
-        <img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
-        {{ if $caption }}
-            <figcaption>{{ $caption }}</figcaption>
-        {{ end }}
-    </figure>
+    
+  <div style="float:{{ $imagealign }}">
+      <img style="padding-right:15px" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+            {{ if $caption }}
+                <figcaption style="left:{{ $captionalign }}">{{ $caption }}</figcaption>
+            {{ end }}
+  </div>
+  
+  <div text-align="{{ $textalign }}">
     <p>
     {{ .Inner }}
     </p>
+  </div>
+
 </body>
 </div>

@@ -1,0 +1,62 @@
+<div>
+<head>
+    <style>
+        .flex-outer {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .flex-inner {
+          flex: 1;
+        }
+        
+        @media (min-width: 768px) {
+          .flex-outer {
+            flex-direction: row;
+          }
+        }
+    
+        figure {
+            position: relative;
+            text-align: center;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 9px;
+            color: #FFF;
+            text-shadow: 0.7px 0.7px 1px #333;
+            position: relative;
+            bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    {{ $wrap := .Get "wrap" }}
+    {{ $src := .Get "src" }}
+    {{ $order1 := .Get "order1" | default "1" }}
+    {{ $order2 := .Get "order2" | default "2" }}
+    {{ $alt := .Get "alt" }}
+    {{ $caption := .Get "caption" }}
+    {{ $captionalign := .Get "caption-align" }}
+    {{ $width := .Get "width" | default "200" }}
+
+<div class="flex-outer" style="flex-wrap:{{ $wrap }}">
+  <div class="flex-inner" style="order:{{ $order1 }}">
+    <figure>
+        <img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+        {{ if $caption }}
+            <figcaption style="left:{{ $captionalign }}">{{ $caption }}</figcaption>
+        {{ end }}
+    <figure>
+  </div>
+  
+  <div class="flex-inner" style="order:{{ $order2 }}">
+    <p>
+    {{ .Inner }}
+    </p>
+  </div>
+
+</div>
+</body>
+</div>

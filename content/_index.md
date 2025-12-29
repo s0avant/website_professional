@@ -6,11 +6,10 @@ type:
 
 </br>
 
-{{< wrap-text-image src=portrait-color.jpg class=image-left width=200 >}}
+{{< wrap-text-image src=portrait-color.jpg image-align=left width=250px >}}
 {{< profile text-align="left" >}}
-{{% render-markdown %}}
-</br>
 
+{{% render-markdown %}}
 I am a quantitative ecologist with a strong interest in data integration to inform species conservation efforts. I am currently a Rose postdoctoral fellow at the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/), where I use [eBird](https://ebird.org/home) data to improve avian population trend estimates and enable targeted conservation through innovative quantitative frameworks. My work is highly collaborative; I work under the direction of [Dr. Kylee Dunham](https://www.birds.cornell.edu/home/staff/kylee-dunham/) and closely with members of the [eBird Status and Trends](https://science.ebird.org/en/status-and-trends) team.
 
 Communicating science to the public and investment in up-and-coming scientists is important to me, and both of these values show up in my past and current projects. Check them out [here](/media)!
@@ -26,9 +25,8 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 
 </br>
 
-{{< wrap-text-image src=pelican-transmitter.jpg class=image-right width=400 caption="Photo credit: Brock Thornley" >}}
+{{< stack-text-image src=pelican-transmitter.jpg order1=2 order2=1 caption-align=138px width=400 caption="Photo credit: Brock Thornley" >}}
 {{% render-markdown %}}
-</br>
 
 #### Current Research
 
@@ -38,15 +36,11 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 -   Anthropogenic land-use and climate change and associated impacts on sensitive species
 
 {{% /render-markdown %}}
-{{< /wrap-text-image >}}
-
-</br>
-</br>
+{{< /stack-text-image >}}
 
 ---
-</br>
 
-{{< wrap-text-image src=tonygrove-banding.jpg class=image-left width=400 caption="Photo credit: Kim Savides" >}}
+{{< stack-text-image src=tonygrove-banding.jpg order1=1 order2=2 caption-align=145px width=400 caption="Photo credit: Kim Savides" >}}
 {{< render-html >}}
 
 <table>
@@ -62,5 +56,4 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 </table>
 
 {{< /render-html >}}
-{{< /wrap-text-image >}}
-</br>
+{{< /stack-text-image >}}
