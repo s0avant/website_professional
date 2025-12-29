@@ -200,13 +200,11 @@ a:hover {
 
 @media (max-width: 360px) {
    .img-phone-h {
-     overflow: hidden;
      max-height: 10px;
      width: auto;
      padding-right: 15px;
    }
    .img-phone-w {
-     overflow: hidden;
      max-width: 70px;
      height: auto;
      padding-right: 15px;
@@ -215,14 +213,12 @@ a:hover {
 
 @media (max-width: 768px) {
    .img-tablet-h {
-     overflow: hidden;
-     max-height: 300px;
+     max-height: 100px;
      width: auto;
      padding-right: 15px;
    }
    .img-tablet-w {
-     overflow: hidden;
-     max-width: 400px;
+     max-width: 200px;
      height: auto;
      padding-right: 15px;
    }
