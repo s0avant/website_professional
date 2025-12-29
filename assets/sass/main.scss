@@ -111,11 +111,6 @@ h4 {
   font-weight: bold;
 }
 
-a {
-  color: var(--main-color-text);
-  text-decoration: underline;
-}
-
 p {
   color: var(--main-color-text);
   text-align: justify;
@@ -180,9 +175,6 @@ a:hover {
   padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
 }
 
-.grid-container {
-}
-
 .icon svg {
   height: 2em;
   width: 2em;
@@ -204,6 +196,29 @@ a:hover {
   float:right;
   max-width: 100%;
   margin-left: 20px;
+}
+
+@media (max-width: 360px) {
+   .img-phone {
+     max-width: 150px;
+     height: auto;
+     padding-right: 15px;
+   }
+}
+
+@media (max-width: 768px) {
+   .img-tablet {
+     max-width: 200px;
+     height: auto;
+     padding-right: 15px;
+   }
+}
+
+@media (min-width: 768px) {
+   .img-browser {
+     height: auto;
+     padding-right: 15px;
+   }
 }
 
 .main-color {
