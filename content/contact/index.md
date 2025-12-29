@@ -9,8 +9,8 @@ type:
 resizetablet=img-tablet-h resizephone=img-phone-h
 image-align=left width=150px >}}
 
-
 {{< profile text-align="left" >}}
+
 </br>
 
 Want to connect? Find me online or send me an email (click the envelope icon above)!
