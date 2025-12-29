@@ -45,7 +45,7 @@ ___
 
 </br>
 
-{{< stack-text-image src=upr-logo.png order1=2 order2=1 width=450 class=image-right >}}
+{{< stack-text-image src=upr-logo.png order1=2 order2=1 width=100% class=image-right >}}
 {{% render-markdown %}}
 In addition to my doctoral research, I served as a [Utah Public Radio](https://www.upr.org/) science reporter, focusing on science stories within Utah from 2020 to 2023. Check out my pieces [[here](https://www.upr.org/people/aimee-van-tatenhove)].
 {{% /render-markdown %}}
