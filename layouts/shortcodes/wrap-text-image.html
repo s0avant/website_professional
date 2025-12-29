@@ -1,13 +1,41 @@
 <div>
 <head>
     <style>
-        figcaption {
-            font-style: italic;
-            font-size: 9px;
-            color: #FFF;
-            text-shadow: 0.7px 0.7px 1px #333;
-            position: relative;
-            bottom: 16px;
+        @media (max-width: 360px) {
+          .figcaption-phone {
+              font-style: italic;
+              font-size: 9px;
+              color: #FFF;
+              text-align: center;
+              text-shadow: 0.7px 0.7px 1px #333;
+              position: absolute;
+              bottom: 1%;
+              width: 100%;
+          }
+        }
+        
+        @media (max-width: 768px) {
+          .figcaption-tablet {
+              font-style: italic;
+              font-size: 9px;
+              color: #FFF;
+              text-align: center;
+              text-shadow: 0.7px 0.7px 1px #333;
+              position: absolute;
+              bottom: 1%;
+              width: 100%;
+          }
+        }
+        
+        @media (min-width: 768px) {
+          .figcaption-browser {
+              font-style: italic;
+              font-size: 9px;
+              color: #FFF;
+              position: absolute;
+              bottom: 1%;
+              width: 100%;
+          }
         }
     </style>
 </head>
@@ -15,16 +43,16 @@
     {{ $imagealign := .Get "image-align" }}
     {{ $textalign := .Get "text-align" | default "left" }}
     {{ $src := .Get "src" }}
-    {{ $resize := .Get "resize" }}
+    {{ $resizetablet := .Get "resize-tablet" }}
+    {{ $resizephone := .Get "resize-phone" }}
     {{ $alt := .Get "alt" }}
     {{ $caption := .Get "caption" }}
-    {{ $captionalign := .Get "caption-align" }}
     {{ $width := .Get "width" | default "200px" }}
     
   <div style="float:{{ $imagealign }}">
-      <img class="img-browser {{ $resize }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+      <img class="img-browser {{ $resizetablet }} {{ $resizephone }}" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
             {{ if $caption }}
-                <figcaption style="left:{{ $captionalign }}">{{ $caption }}</figcaption>
+              <figcaption class="figcaption-browser figcaption-phone figcaption-tablet">
             {{ end }}
   </div>
   

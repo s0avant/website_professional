@@ -6,7 +6,10 @@ type:
 
 </br>
 
-{{< wrap-text-image src=portrait-color.jpg resize="img-tablet-h img-phone-h" image-align=left width=250 >}}
+{{< wrap-text-image src=portrait-color.jpg
+resize-tablet=img-tablet-h resize-phone=img-phone-h
+image-align=left width=250 >}}
+
 {{< profile text-align="left" >}}
 
 {{% render-markdown %}}
@@ -25,7 +28,11 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 
 </br>
 
-{{< stack-text-image src=pelican-transmitter.jpg resize="img-tablet-w img-phone-w" order1=2 order2=1 width=400px caption="Photo credit: Brock Thornley" >}}
+{{< stack-text-image src=pelican-transmitter.jpg
+resize-tablet=img-tablet-w resize-phone=img-phone-w
+order1=2 order2=1 width=400px
+caption="Photo credit: Brock Thornley" >}}
+
 {{% render-markdown %}}
 
 #### Current Research
@@ -40,7 +47,11 @@ Unless noted otherwise, all media on this site, including header photos, are my 
 
 ---
 
-{{< stack-text-image src=tonygrove-banding.jpg resize="img-tablet-w img-phone-w" order1=1 order2=2 width=400px caption="Photo credit: Kim Savides" >}}
+{{< stack-text-image src=tonygrove-banding.jpg
+resize-tablet=img-tablet-w resize-phone=img-phone-w
+order1=1 order2=2 width=400px
+caption="Photo credit: Kim Savides" >}}
+
 {{< render-html >}}
 
 <table>
