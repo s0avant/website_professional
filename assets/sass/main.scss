@@ -199,7 +199,12 @@ a:hover {
 }
 
 @media (max-width: 360px) {
-   .img-phone {
+   .img-phone-h {
+     max-height: 150px;
+     width: auto;
+     padding-right: 15px;
+   }
+   .img-phone-v {
      max-width: 150px;
      height: auto;
      padding-right: 15px;
@@ -207,7 +212,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-   .img-tablet {
+   .img-tablet-h {
+     max-height: 200px;
+     width: auto;
+     padding-right: 15px;
+   }
+   .img-tablet-v {
      max-width: 200px;
      height: auto;
      padding-right: 15px;

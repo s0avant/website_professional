@@ -21,7 +21,7 @@
     {{ $width := .Get "width" | default "200" }}
     
   <div style="float:{{ $imagealign }}">
-      <img class="img-browser img-phone img-tablet" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
+      <img class="img-browser img-phone-v img-tablet-v" src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}">
             {{ if $caption }}
                 <figcaption style="left:{{ $captionalign }}">{{ $caption }}</figcaption>
             {{ end }}
