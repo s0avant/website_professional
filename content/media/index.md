@@ -20,6 +20,8 @@ ___
 ---
 {{< /floating-content >}}
 
+* **2026**
+  + Charlottetown Guardian: Changing climate brings pros and cons to P.E.I.'s birds and those who watch them (02.23.2026) [[link](https://www.saltwire.com/prince-edward-island/changing-climate-pros-cons-to-pei-birds)]
 * **2025**
   + Barron's (AFP News): Climate Heat Extremes Driving Tropical Bird Decline: Study (08.11.2025) [[link](https://www.barrons.com/news/climate-heat-extremes-driving-tropical-bird-decline-study-e9439578)]
   + Audubon Magazine: How Do Seabirds Drink Salt Water? (08.07.2025) [[link](https://www.audubon.org/magazine/how-do-seabirds-drink-salt-water)]
