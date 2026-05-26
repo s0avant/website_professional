@@ -21,6 +21,7 @@ ___
 {{< /floating-content >}}
 
 * **2026**
+  + WENY News: Migration season crucial for conserving avian populations, ornithologists say (05.26.2026) [[link](https://www.weny.com/news/local/migration-season-crucial-for-conserving-avian-populations-ornithologists-say/article_b5bd6fe5-4513-44cd-b812-df6a16b6c3f7.html)]
   + Times Union: When is spring? We consulted birds, flowers, trees, and science (04.09.2026) [[link](https://www.timesunion.com/weather/article/spring-arrival-22193298.php)]
   + Utah Public Radio: Birds and science journalism with former UPR reporters on Access Utah (03.25.2026) [[link](https://www.upr.org/show/access-utah/2026-03-25/birds-and-science-journalism-with-former-upr-reporters-on-access-utah)]
   + Charlottetown Guardian: Changing climate brings pros and cons to P.E.I.'s birds and those who watch them (02.23.2026) [[link](https://www.saltwire.com/prince-edward-island/changing-climate-pros-cons-to-pei-birds)]
