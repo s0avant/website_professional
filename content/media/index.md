@@ -21,6 +21,7 @@ ___
 {{< /floating-content >}}
 
 * **2026**
+  + The North American Waterfowler: The Secret Life of American White Pelicans (06.08.2026) [[link](https://open.spotify.com/episode/5FqTS2JqnrPwhXiq7eTVGs)]
   + WENY News: Migration season crucial for conserving avian populations, ornithologists say (05.26.2026) [[link](https://www.weny.com/news/local/migration-season-crucial-for-conserving-avian-populations-ornithologists-say/article_b5bd6fe5-4513-44cd-b812-df6a16b6c3f7.html)]
   + Times Union: When is spring? We consulted birds, flowers, trees, and science (04.09.2026) [[link](https://www.timesunion.com/weather/article/spring-arrival-22193298.php)]
   + Utah Public Radio: Birds and science journalism with former UPR reporters on Access Utah (03.25.2026) [[link](https://www.upr.org/show/access-utah/2026-03-25/birds-and-science-journalism-with-former-upr-reporters-on-access-utah)]
