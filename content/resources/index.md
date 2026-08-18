@@ -7,7 +7,7 @@ catchline:
 
 A list of various resources I've found useful over the years. Please [contact me](/contact) if you find a broken link or would like to suggest a resource.
 
-*Updated October 2025*
+*Updated August 2026*
 
 ___
 
@@ -28,6 +28,8 @@ ___
   + Nature Reviews: methods primers [[link](https://www.nature.com/nrmp/)]
 * **Scientific writing**
   + Writing a scientific article: A step-by-step guide for beginners [[link](https://doi.org/10.1016/j.eurger.2015.08.005)]
+* **Presenting your work**
+  + How to make your first scientific poster [[link](https://www.sciencegraphicdesign.com/blog/how-do-you-make-your-first-scientific-poster)]
 
 </br>
 
