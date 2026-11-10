@@ -21,6 +21,7 @@ ___
 {{< /floating-content >}}
 
 * **2026**
+  + The Cornell Daily Sun: Cornell Lab of Ornithology’s BirdCast Provides Data to Protect Migrating Birds (11.09.2026) [[link](https://www.cornellsun.com/article/2026/11/cornell-lab-of-ornithology-s-birdcast-provides-data-to-protect-migrating-birds)]
   + The Cornell Daily Sun: 20th Annual Migration Celebration Showcases Bird Research, Projects to Community (09.13.2026) [[link](https://www.cornellsun.com/article/2026/09/20th-annual-migration-celebration-showcases-bird-research-projects-to-community)]
   + AP News: People aren’t the only ones hit by heat. What to do if you see wildlife affected by hot temperatures (06.26.2026) [[link](https://apnews.com/article/climate-europe-high-heat-temperatures-humidity-cooling-wildlife-9cc31ea13779b76ec50fa94dfa021312)]
   + The North American Waterfowler: The Secret Life of American White Pelicans (06.08.2026) [[link](https://open.spotify.com/episode/5FqTS2JqnrPwhXiq7eTVGs)]
